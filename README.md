@@ -1,19 +1,78 @@
-### Hi, I'm Awais 👋
+### 🏍️ Hi, I'm Awais Rehman
 
-I build the **missing tooling for the AI-coding era** — a full pipeline:
+> **Note:** My previous account [`awaisdev5765`](https://github.com/awaisdev5765) was **deactivated/suspended** (Nov 2026). This is my new home — everything continues here. The work didn't disappear: it lives in the repos below and in [merged commits on upstream `main` branches](https://github.com/Awaisdev01/contributions).
 
-📱 **Design** → 🔬 **Code** → ✅ **Claims** → 🧪 **AI features** → 🚢 **Ship**
+I build the **missing tooling for the AI-coding era** — a full pipeline, not one-off scripts:
 
-| | |
+**📱 Design → 🔬 Code → ✅ Claims → 🧪 AI features → 🚢 Ship**
+
+Each stage is a tool I actually use, packaged so others can too.
+
+---
+
+### 🏆 Open-source contributor
+
+My work is merged in the tools you already use:
+
+| Project | Contribution |
 |---|---|
-| 📱 [nativetap](https://github.com/Awaisdev01/nativetap) | 464 mobile-design rules your AI agent searches before writing any phone UI |
-| ✅ [factcheck](https://github.com/Awaisdev01/factcheck) | CI gate for AI-written content — verify claims against a facts file you control |
-| 🛡️ [promptguard](https://github.com/Awaisdev01/promptguard) | Regression testing for AI features (OpenAI/Anthropic/Gemini) |
-| 🚢 [shipcheck](https://github.com/Awaisdev01/shipcheck) | Launch-readiness audit: store listings, privacy, screenshots |
-| ⚡ [forgecode](https://github.com/Awaisdev01/forgecode) | One AI agent core → web, Electron, VS Code extension |
+| **flutter/flutter** | Support for multi-view apps in widget test binding — [`74a1f4dc`](https://github.com/flutter/flutter/commit/74a1f4dc) on `master` |
+| **flutter/devtools** | ANSI color legibility fix for logs & console — [`b20573fe`](https://github.com/flutter/devtools/commit/b20573fe) on `master` |
+| **kiwix/kiwix-android** | 8 landed patches: OPDS search fixes, category dialog UX, TOC gating — [commits on `main`](https://github.com/kiwix/kiwix-android/commits?author=81323680%2Bawaisdev5765%40users.noreply.github.com) |
 
-**Flutter/Dart ecosystem:** [prism_doctor](https://github.com/Awaisdev01/prism_doctor) (code auditor) · [prism_glass](https://github.com/Awaisdev01/prism_glass) (Apple Liquid Glass) · [prism_lints](https://github.com/Awaisdev01/prism_lints) · [prism_sketch](https://github.com/Awaisdev01/prism_sketch) (wireframe-to-code) · [prism_alerts](https://github.com/Awaisdev01/prism_alerts) · [prism_guardrails](https://github.com/Awaisdev01/prism_guardrails) · [urdu_toolkit](https://github.com/Awaisdev01/urdu_toolkit)
+Every link is a commit you can click and verify. Full list → [`Awaisdev01/contributions`](https://github.com/Awaisdev01/contributions)
 
-**Standalone:** 📡 [smsaria](https://github.com/Awaisdev01/smsaria) (AI over SMS/USSD for basic phones) · 🔇 [stfu-2.0](https://github.com/Awaisdev01/stfu-2.0) · 🐚 [bashproof](https://github.com/Awaisdev01/bashproof) · 🧭 [diffconscience](https://github.com/Awaisdev01/diffconscience)
+---
 
-🏆 [Merged open-source contributions](https://github.com/Awaisdev01/contributions) — flutter/flutter, flutter/devtools, kiwix/kiwix-android.
+### 🧰 The pipeline — my own tools
+
+#### 📱 Design → code
+- [`nativetap`](https://github.com/Awaisdev01/nativetap) — **464 mobile-design rules** (HIG, Material 3, Flutter, SwiftUI, Compose) your AI agent searches before writing any phone screen UI
+
+#### 🔬 Code quality
+- [`prism_doctor`](https://github.com/Awaisdev01/prism_doctor) — scored A–F audits for Dart/Flutter: hardcoded colors, magic numbers, dead code
+- [`prism_lints`](https://github.com/Awaisdev01/prism_lints) — custom analyzer lints that catch design-system violations at compile time
+- [`prism_guardrails`](https://github.com/Awaisdev01/prism_guardrails) — the AI safety layer for agent-built Dart code
+- [`diffconscience`](https://github.com/Awaisdev01/diffconscience) — pre-handoff audit of AI agent diffs (leftover debug code, secrets, TODOs)
+- [`bashproof`](https://github.com/Awaisdev01/bashproof) — stops AI-generated shell commands from breaking on quoting traps
+
+#### ✅ AI feature reliability
+- [`factcheck`](https://github.com/Awaisdev01/factcheck) — **the CI gate for AI-written content**: verify claims in AI text against a facts file you control. Zero deps, no LLM
+- [`promptguard`](https://github.com/Awaisdev01/promptguard) — regression testing for AI features across OpenAI/Anthropic/Gemini/Groq
+
+#### 🚢 Ship
+- [`shipcheck`](https://github.com/Awaisdev01/shipcheck) — launch-readiness audit: store listings, privacy, screenshots, release notes
+
+---
+
+### 🧩 The Prism ecosystem (Flutter/Dart, on pub.dev)
+
+| Package | What it is |
+|---|---|
+| [`prism_kit`](https://github.com/Awaisdev01/prism_kit) | **51 adaptive components** on a shared design system — data tables, calendar, tabs, toasts, forms, markdown, AI chat client · `2.1.1` |
+| [`prism_glass`](https://github.com/Awaisdev01/prism_glass) | Apple's **Liquid Glass** material, backported to Flutter |
+| [`prism_sketch`](https://github.com/Awaisdev01/prism_sketch) | Wireframe-to-code for the Prism pipeline |
+| [`prism_alerts`](https://github.com/Awaisdev01/prism_alerts) | Local reminders that survive DST, timezone changes and reboots |
+
+---
+
+### ⚡ Products
+
+- [`forgecode`](https://github.com/Awaisdev01/forgecode) — **one AI agent core, four platforms**: web (WebContainer), Electron desktop, VS Code extension
+- [`smsaria`](https://github.com/Awaisdev01/smsaria) — AI for any phone: turns a phone number into an AI service over SMS/USSD (works on basic feature phones)
+- [`stfu-2.0`](https://github.com/Awaisdev01/stfu-2.0) — noise, your rules · [live app](https://awaisdev01.github.io/stfu-2.0/)
+- [`urdu_toolkit`](https://github.com/Awaisdev01/urdu_toolkit) — Urdu & RTL text utilities for Flutter (transliteration, Nastaliq)
+- [`commit-ramp-rider`](https://github.com/Awaisdev01/commit-ramp-rider) — 🏍️ **ride your GitHub contribution graph as a dirt bike track** · [play](https://awaisdev01.github.io/commit-ramp-rider/)
+
+---
+
+### 🛠️ Stack
+
+`Flutter/Dart` · `TypeScript` · `Swift` · `Python` · `plain JavaScript (physics & sound included)`
+
+### 📫 Find me
+
+- pub.dev: [pub.dev/packages?q=prism](https://pub.dev/packages?q=prism) — 9 published packages
+- Issues and PRs welcome on any repo above
+
+<!-- Old account: awaisdev5765 (suspended Nov 2026). This account carries all ongoing work. -->
