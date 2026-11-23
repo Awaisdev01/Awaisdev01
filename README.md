@@ -1,8 +1,14 @@
-<a href="https://awaisdev01.github.io/commit-ramp-rider/">
-  <img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track">
-</a>
+<img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track">
 
-### 🏍️ Hi, I'm Awais Rehman
+<h1 align="center">Awais Ur Rehman</h1>
+<h3 align="center">Senior Mobile Engineer & Full-Stack + AI Developer</h3>
+<p align="center">
+  <i>Flutter & Swift apps · Dart/TypeScript backends · AI agents and ML-powered features — from design system to shipped store build.</i>
+</p>
+<p align="center">
+  <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play Commit Ramp Rider" src="https://img.shields.io/badge/🎮_play-Commit_Ramp_Rider-B7FF45?labelColor=101114"></a>
+  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev packages" src="https://img.shields.io/badge/pub.dev-9_packages-0175C2?logo=dart&logoColor=white"></a>
+</p>
 
 > [!IMPORTANT]
 > **My previous account [`awaisdev5765`](https://github.com/awaisdev5765) was deactivated/suspended (Nov 2026).** This is my new home — everything continues here. The work didn't disappear: it lives in the repos below and in [merged commits on upstream `main` branches](https://github.com/Awaisdev01/contributions).
@@ -25,7 +31,7 @@ The game above? **Commit Ramp Rider** — I turned my commit history into a dirt
   <img src="https://streak-stats.demolab.com?user=Awaisdev01&theme=chartreuse-dark&hide_border=true&locale=en" height="165" alt="GitHub streak" />
 </p>
 <p>
-  <img src="https://github.com/Awaisdev01/Awaisdev01/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation of my contribution graph" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/Awaisdev01/commit-ramp-rider@output/github-contribution-grid-snake-dark.svg" alt="Snake animation of my contribution graph" width="100%">
 </p>
 
 ### 🏆 Open-source contributor
@@ -54,9 +60,10 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 - [`diffconscience`](https://github.com/Awaisdev01/diffconscience) — pre-handoff audit of AI agent diffs (leftover debug code, secrets, TODOs)
 - [`bashproof`](https://github.com/Awaisdev01/bashproof) — stops AI-generated shell commands from breaking on quoting traps
 
-#### ✅ AI feature reliability
+#### 🧠 AI / ML
+- [`promptguard`](https://github.com/Awaisdev01/promptguard) — **regression testing for AI features** across OpenAI/Anthropic/Gemini/Groq — catch prompt regressions in CI before users do
 - [`factcheck`](https://github.com/Awaisdev01/factcheck) — **the CI gate for AI-written content**: verify claims in AI text against a facts file you control. Zero deps, no LLM
-- [`promptguard`](https://github.com/Awaisdev01/promptguard) — regression testing for AI features across OpenAI/Anthropic/Gemini/Groq
+- [`forgecode`](https://github.com/Awaisdev01/forgecode) — **AI agent core** with streaming LLM client, tool-call loop and workspace tools — one core, four platforms (web, Electron, VS Code)
 
 #### 🚢 Ship
 - [`shipcheck`](https://github.com/Awaisdev01/shipcheck) — launch-readiness audit: store listings, privacy, screenshots, release notes
@@ -76,8 +83,7 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 
 ### ⚡ Products
 
-- [`forgecode`](https://github.com/Awaisdev01/forgecode) — **one AI agent core, four platforms**: web (WebContainer), Electron desktop, VS Code extension
-- [`smsaria`](https://github.com/Awaisdev01/smsaria) — AI for any phone: turns a phone number into an AI service over SMS/USSD (works on basic feature phones)
+- [`smsaria`](https://github.com/Awaisdev01/smsaria) — **AI for any phone**: turns a phone number into an AI service over SMS/USSD (works on basic feature phones)
 - [`stfu-2.0`](https://github.com/Awaisdev01/stfu-2.0) — noise, your rules · [live app](https://awaisdev01.github.io/stfu-2.0/)
 - [`urdu_toolkit`](https://github.com/Awaisdev01/urdu_toolkit) — Urdu & RTL text utilities for Flutter (transliteration, Nastaliq)
 
@@ -85,7 +91,36 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 
 ### 🛠️ Stack
 
-![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+<p>
+  <img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white" alt="Dart">
+  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" alt="Swift">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+</p>
+<p>
+  <b>AI / ML:</b>
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="OpenAI">
+  <img src="https://img.shields.io/badge/Anthropic-191919?logo=anthropic&logoColor=white" alt="Anthropic">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white" alt="LangChain">
+</p>
+<p>
+  <b>Backend & cloud:</b>
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" alt="Firebase">
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white" alt="GCP">
+</p>
 
 ### 📫 Find me
 
