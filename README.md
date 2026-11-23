@@ -1,14 +1,32 @@
+<a href="https://awaisdev01.github.io/commit-ramp-rider/">
+  <img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track">
+</a>
+
 ### 🏍️ Hi, I'm Awais Rehman
 
-> **Note:** My previous account [`awaisdev5765`](https://github.com/awaisdev5765) was **deactivated/suspended** (Nov 2026). This is my new home — everything continues here. The work didn't disappear: it lives in the repos below and in [merged commits on upstream `main` branches](https://github.com/Awaisdev01/contributions).
+> [!IMPORTANT]
+> **My previous account [`awaisdev5765`](https://github.com/awaisdev5765) was deactivated/suspended (Nov 2026).** This is my new home — everything continues here. The work didn't disappear: it lives in the repos below and in [merged commits on upstream `main` branches](https://github.com/Awaisdev01/contributions).
 
 I build the **missing tooling for the AI-coding era** — a full pipeline, not one-off scripts:
 
 **📱 Design → 🔬 Code → ✅ Claims → 🧪 AI features → 🚢 Ship**
 
-Each stage is a tool I actually use, packaged so others can too.
+The game above? **Commit Ramp Rider** — I turned my commit history into a dirt-bike track: every commit day became a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics & sound, zero game engine. [**Play it live →**](https://awaisdev01.github.io/commit-ramp-rider/)
 
 ---
+
+### 📊 GitHub stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Awaisdev01&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awaisdev01&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top languages" />
+</p>
+<p>
+  <img src="https://streak-stats.demolab.com?user=Awaisdev01&theme=chartreuse-dark&hide_border=true&locale=en" height="165" alt="GitHub streak" />
+</p>
+<p>
+  <img src="https://github.com/Awaisdev01/Awaisdev01/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation of my contribution graph" width="100%">
+</p>
 
 ### 🏆 Open-source contributor
 
@@ -62,17 +80,16 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 - [`smsaria`](https://github.com/Awaisdev01/smsaria) — AI for any phone: turns a phone number into an AI service over SMS/USSD (works on basic feature phones)
 - [`stfu-2.0`](https://github.com/Awaisdev01/stfu-2.0) — noise, your rules · [live app](https://awaisdev01.github.io/stfu-2.0/)
 - [`urdu_toolkit`](https://github.com/Awaisdev01/urdu_toolkit) — Urdu & RTL text utilities for Flutter (transliteration, Nastaliq)
-- [`commit-ramp-rider`](https://github.com/Awaisdev01/commit-ramp-rider) — 🏍️ **ride your GitHub contribution graph as a dirt bike track** · [play](https://awaisdev01.github.io/commit-ramp-rider/)
 
 ---
 
 ### 🛠️ Stack
 
-`Flutter/Dart` · `TypeScript` · `Swift` · `Python` · `plain JavaScript (physics & sound included)`
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ### 📫 Find me
 
-- pub.dev: [pub.dev/packages?q=prism](https://pub.dev/packages?q=prism) — 9 published packages
+- pub.dev: [all 9 packages](https://pub.dev/packages?q=prism)
 - Issues and PRs welcome on any repo above
 
 <!-- Old account: awaisdev5765 (suspended Nov 2026). This account carries all ongoing work. -->
