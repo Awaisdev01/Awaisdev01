@@ -3,6 +3,9 @@
 <h1 align="center">Awais Ur Rehman</h1>
 <h3 align="center">Senior Mobile Engineer & Full-Stack + AI Developer</h3>
 <p align="center">
+  <b>🌐 <a href="https://awaisdev01.github.io/Awaisdev01/">My portfolio site</a></b> — live GitHub stats, every project, and the game.
+</p>
+<p align="center">
   <i>Flutter & Swift apps · Dart/TypeScript backends · AI agents and ML-powered features — from design system to shipped store build.</i>
 </p>
 <p align="center">
