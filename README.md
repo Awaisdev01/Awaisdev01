@@ -70,14 +70,32 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 
 ---
 
-### 🧩 The Prism ecosystem (Flutter/Dart, on pub.dev)
+### 🧩 The Prism ecosystem — 15 packages on pub.dev
+
+**Core:**
 
 | Package | What it is |
 |---|---|
-| [`prism_kit`](https://github.com/Awaisdev01/prism_kit) | **51 adaptive components** on a shared design system — data tables, calendar, tabs, toasts, forms, markdown, AI chat client · `2.1.1` |
+| [`prism_kit`](https://github.com/Awaisdev01/prism_kit) | **51 adaptive components** on a shared design system — tables, calendar, tabs, forms, AI chat client · `2.1.1` |
 | [`prism_glass`](https://github.com/Awaisdev01/prism_glass) | Apple's **Liquid Glass** material, backported to Flutter |
 | [`prism_sketch`](https://github.com/Awaisdev01/prism_sketch) | Wireframe-to-code for the Prism pipeline |
 | [`prism_alerts`](https://github.com/Awaisdev01/prism_alerts) | Local reminders that survive DST, timezone changes and reboots |
+
+**UI components:**
+
+| Package | What it is |
+|---|---|
+| [`prism_markdown`](https://github.com/Awaisdev01/prism_markdown) | Fast, plugin-free Markdown widget (full CommonMark + GFM) · `0.4.0` |
+| [`prism_form`](https://github.com/Awaisdev01/prism_form) | Declarative forms — typed fields, composable validators, sealed results · `0.1.0` |
+| [`prism_toast`](https://github.com/Awaisdev01/prism_toast) | Adaptive toast notifications — bottom on mobile, stacked on desktop · `0.1.0` |
+| [`prism_banner`](https://github.com/Awaisdev01/prism_banner) | Dismissible in-app announcement banners · `0.1.0` |
+
+**AI & platform:**
+
+| Package | What it is |
+|---|---|
+| [`prism_ai`](https://github.com/Awaisdev01/prism_ai) | Provider-agnostic streaming AI chat client (OpenAI, Ollama…) · `0.6.0` |
+| [`prism_updater`](https://github.com/Awaisdev01/prism_updater) | Cross-platform in-app update experience · `0.2.0` |
 
 ---
 
@@ -124,7 +142,7 @@ Every link is a commit you can click and verify. Full list → [`Awaisdev01/cont
 
 ### 📫 Find me
 
-- pub.dev: [all 9 packages](https://pub.dev/packages?q=prism)
+- pub.dev: [all 15 packages](https://pub.dev/packages?q=prism)
 - Issues and PRs welcome on any repo above
 
 <!-- Old account: awaisdev5765 (suspended Nov 2026). This account carries all ongoing work. -->
