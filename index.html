@@ -1,0 +1,195 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awais Ur Rehman — Senior Mobile Engineer & Full-Stack + AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--green:#B7FF45;--bg:#0b0d10;--card:#12161b;--line:rgba(255,255,255,.08);--txt:#e8e6e3;--dim:#8b949e}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--txt);font-family:'Space Grotesk',system-ui,sans-serif;line-height:1.6}
+  .wrap{max-width:1080px;margin:0 auto;padding:48px 24px}
+  /* hero */
+  .hero{text-align:center;padding:40px 0 20px}
+  .hero h1{font-size:clamp(30px,5vw,52px);font-weight:700;letter-spacing:-1px}
+  .hero h1 .g{color:var(--green)}
+  .hero .role{font-size:clamp(14px,2.4vw,19px);color:var(--dim);margin-top:8px}
+  .hero .pitch{max-width:640px;margin:18px auto 0;color:var(--txt);font-size:15.5px}
+  .badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+  .badge{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:13px;text-decoration:none;color:var(--txt);transition:.15s}
+  .badge:hover{border-color:var(--green);color:var(--green)}
+  .badge.hl{background:var(--green);color:#101114;font-weight:700}
+  /* notice */
+  .notice{max-width:760px;margin:30px auto 0;background:rgba(183,255,69,.06);border:1px solid rgba(183,255,69,.3);border-radius:14px;padding:14px 20px;font-size:13px;color:var(--dim);text-align:center}
+  .notice b{color:var(--green)}
+  /* section */
+  .sec{margin-top:64px}
+  .sec h2{font-size:22px;display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .sec .sub{color:var(--dim);font-size:13.5px;margin-bottom:22px}
+  /* grid cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;text-decoration:none;color:var(--txt);display:block;transition:.15s;position:relative}
+  .card:hover{border-color:var(--green);transform:translateY(-2px)}
+  .card .ico{font-size:24px}
+  .card h3{font-size:16px;margin:10px 0 6px;display:flex;align-items:center;gap:8px;justify-content:space-between}
+  .card h3 .v{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--green);background:rgba(183,255,69,.1);padding:2px 8px;border-radius:6px}
+  .card p{font-size:13px;color:var(--dim)}
+  .card .meta{margin-top:12px;display:flex;gap:10px;font-size:11px;color:var(--dim);font-family:'JetBrains Mono',monospace}
+  /* live stats */
+  .stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin-top:20px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+  .stat .v{font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:700;color:var(--green)}
+  .stat .k{font-size:10px;letter-spacing:1.4px;color:var(--dim);text-transform:uppercase;margin-top:4px}
+  /* pipeline */
+  .pipe{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:13px}
+  .pipe .st{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
+  .pipe .arr{color:var(--green)}
+  /* game embed */
+  .gamecard{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-wrap:wrap}
+  .gamecard img{width:100%;display:block}
+  .gamecard .gt{padding:20px 24px;flex:1;min-width:280px}
+  .gamecard .gt h3{font-size:17px;margin-bottom:6px}
+  .gamecard .gt p{color:var(--dim);font-size:13.5px}
+  .gamecard .btn{display:inline-block;margin-top:14px;background:var(--green);color:#101114;font-weight:700;border-radius:10px;padding:9px 18px;text-decoration:none;font-size:13.5px}
+  footer{margin-top:80px;text-align:center;color:var(--dim);font-size:12px;padding-bottom:40px}
+  footer a{color:var(--green)}
+  @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style></head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Awais Ur <span class="g">Rehman</span></h1>
+    <div class="role">Senior Mobile Engineer · Full-Stack + AI · Flutter / Swift / TypeScript / Python</div>
+    <p class="pitch">I build the missing tooling for the AI-coding era — a complete pipeline from design system to shipped store build, plus AI agents and ML-backed features that survive contact with production.</p>
+    <div class="badges">
+      <a class="badge hl" href="https://awaisdev01.github.io/commit-ramp-rider/">🏍️ Play Commit Ramp Rider</a>
+      <a class="badge" href="https://pub.dev/packages?q=prism">15 pub.dev packages</a>
+      <a class="badge" href="https://github.com/Awaisdev01/contributions">🏆 merged OSS contributions</a>
+      <a class="badge" href="https://github.com/Awaisdev01">GitHub profile</a>
+    </div>
+  </div>
+
+  <div class="notice"><b>Note:</b> my previous account <b>awaisdev5765</b> was deactivated (Nov 2026). Everything continues here — including merged commits on upstream <b>flutter/flutter</b>, <b>flutter/devtools</b> and <b>kiwix</b>, verifiable in <a style="color:var(--green)" href="https://github.com/Awaisdev01/contributions">the contributions repo</a>.</div>
+
+  <div class="sec">
+    <h2>📊 Live portfolio stats <span style="font-size:11px;color:var(--dim);font-weight:400">(fetched live from the GitHub API)</span></h2>
+    <div class="stats" id="stats">
+      <div class="stat"><div class="v" id="sRepos">—</div><div class="k">repositories</div></div>
+      <div class="stat"><div class="v" id="sStars">—</div><div class="k">stars</div></div>
+      <div class="stat"><div class="v" id="sForks">—</div><div class="k">forks</div></div>
+      <div class="stat"><div class="v" id="sLangs">—</div><div class="k">languages</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>🧭 The pipeline</h2>
+    <p class="sub">Each stage is a real tool I use, packaged for everyone.</p>
+    <div class="pipe">
+      <span class="st">📱 design</span><span class="arr">→</span>
+      <span class="st">🔬 code</span><span class="arr">→</span>
+      <span class="st">✅ claims</span><span class="arr">→</span>
+      <span class="st">🧪 AI</span><span class="arr">→</span>
+      <span class="st">🚢 ship</span>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>🧰 The tools</h2>
+    <p class="sub">Live data — cards update automatically from the GitHub API.</p>
+    <div class="grid" id="repos"></div>
+  </div>
+
+  <div class="sec">
+    <h2>🧩 The Prism ecosystem — 15 packages on pub.dev</h2>
+    <p class="sub">Adaptive Flutter components, Liquid Glass, AI chat streaming, forms, markdown — one shared design system.</p>
+    <div class="badges" id="ecosystem">
+      <a class="badge" href="https://pub.dev/packages/prism_kit">prism_kit</a>
+      <a class="badge" href="https://pub.dev/packages/prism_glass">prism_glass</a>
+      <a class="badge" href="https://pub.dev/packages/prism_markdown">prism_markdown</a>
+      <a class="badge" href="https://pub.dev/packages/prism_form">prism_form</a>
+      <a class="badge" href="https://pub.dev/packages/prism_toast">prism_toast</a>
+      <a class="badge" href="https://pub.dev/packages/prism_banner">prism_banner</a>
+      <a class="badge" href="https://pub.dev/packages/prism_ai">prism_ai</a>
+      <a class="badge" href="https://pub.dev/packages/prism_updater">prism_updater</a>
+      <a class="badge" href="https://pub.dev/packages/prism_doctor">prism_doctor</a>
+      <a class="badge" href="https://pub.dev/packages/prism_alerts">prism_alerts</a>
+      <a class="badge" href="https://pub.dev/packages/prism_sketch">prism_sketch</a>
+      <a class="badge" href="https://pub.dev/packages/prism_lints">prism_lints</a>
+      <a class="badge" href="https://pub.dev/packages/prism_guardrails">prism_guardrails</a>
+      <a class="badge" href="https://pub.dev/packages/shipcheck">shipcheck</a>
+      <a class="badge" href="https://pub.dev/packages/urdu_toolkit">urdu_toolkit</a>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>🏍️ Commit Ramp Rider</h2>
+    <div class="gamecard">
+      <img src="https://raw.githubusercontent.com/Awaisdev01/Awaisdev01/main/game.png" alt="Commit Ramp Rider gameplay">
+      <div class="gt">
+        <h3>Ride your contribution graph as a dirt bike track</h3>
+        <p>Every commit day became a hill — the bigger the day, the bigger the ramp. Custom physics, WebAudio engine sound, commit-coin collectibles, crash-and-retry. Plain JavaScript, no game engine.</p>
+        <a class="btn" href="https://awaisdev01.github.io/commit-ramp-rider/">▶ Play now</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Built by hand — no site generator. Live data via the GitHub API ·
+    <a href="https://github.com/Awaisdev01/Awaisdev01">source</a> ·
+    previously <span style="text-decoration:line-through">awaisdev5765</span> (deactivated)
+  </footer>
+</div>
+<script>
+const REPOS=[
+ ["nativetap","📱","v1.3.0"],
+ ["factcheck","✅","v0.3.1"],
+ ["prism_kit","🧩","v2.1.1"],
+ ["prism_glass","🧊","v0.1.0"],
+ ["prism_doctor","🔬","v0.1.1"],
+ ["promptguard","🛡️","v0.2.0"],
+ ["shipcheck","🚢","v0.1.0"],
+ ["forgecode","⚡","v0.1.0"],
+ ["smsaria","📡","v0.1.0"],
+ ["stfu-2.0","🔇","v0.2.0"],
+ ["bashproof","🐚","v0.1.0"],
+ ["diffconscience","🧭","v0.1.0"],
+ ["commit-ramp-rider","🏍️",""],
+ ["urdu_toolkit","📝","v0.2.0"],
+ ["prism_ai","🤖","v0.6.0"],
+ ["prism_markdown","📝","v0.4.0"],
+ ["prism_form","🧾","v0.1.0"],
+ ["prism_toast","🍞","v0.1.0"],
+ ["prism_banner","📣","v0.1.0"],
+ ["prism_updater","⬆️","v0.2.0"],
+ ["contributions","🏆",""],
+];
+async function load(){
+  // stats
+  try{
+    const u=await (await fetch('https://api.github.com/users/Awaisdev01')).json();
+    document.getElementById('sRepos').textContent=u.public_repos;
+    // aggregate stars/forks across pages
+    let stars=0,forks=0,langs=new Set();
+    for(let p=1;p<=3;p++){
+      const rs=await (await fetch(`https://api.github.com/users/Awaisdev01/repos?per_page=100&page=${p}`)).json();
+      if(!Array.isArray(rs)||!rs.length)break;
+      for(const r of rs){stars+=r.stargazers_count||0;forks+=r.forks_count||0;if(r.language)langs.add(r.language)}
+    }
+    document.getElementById('sStars').textContent=stars;
+    document.getElementById('sForks').textContent=forks;
+    document.getElementById('sLangs').textContent=langs.size;
+  }catch(e){/* offline-safe */}
+  // repo cards
+  const grid=document.getElementById('repos');
+  for(const [name,ico,ver] of REPOS){
+    fetch('https://api.github.com/repos/Awaisdev01/'+name).then(r=>r.json()).then(r=>{
+      if(!r.description)return;
+      const a=document.createElement('a');
+      a.className='card';a.href='https://github.com/Awaisdev01/'+name;
+      a.innerHTML=`<div class="ico">${ico}</div><h3>${name}${ver?`<span class="v">${ver}</span>`:''}</h3><p>${r.description.replace(/</g,'&lt;')}</p><div class="meta"><span>★ ${r.stargazers_count||0}</span><span>${r.language||''}</span></div>`;
+      grid.appendChild(a);
+    }).catch(()=>{});
+  }
+}
+load();
+</script>
+</body></html>
