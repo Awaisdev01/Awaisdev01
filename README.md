@@ -1,151 +1,47 @@
-<img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track">
+<!-- HEADER BANNER --> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:101114,60:1B2A10,100:B7FF45&text=Awais%20Ur%20Rehman&fontColor=FFFFFF&fontSize=52&fontAlignY=36&desc=Senior%20Mobile%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20AI%20Developer&descSize=18&descAlignY=58&animation=fadeIn" alt="Awais Ur Rehman — Senior Mobile Engineer, Full-Stack and AI Developer" /> <p align="center"> <a href="https://readme-typing-svg.demolab.com"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1200&color=B7FF45&center=true&vCenter=true&width=720&lines=Flutter+%26+Swift+apps+shipped+to+the+stores;Dart+%2F+TypeScript+backends+and+AI+agents;Tooling+for+the+AI-coding+era;Design+system+%E2%86%92+production+build" alt="Typing animation" /> </a> </p> <p align="center"> <a href="https://awaisdev01.github.io/Awaisdev01/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-101114?style=for-the-badge&logo=googlechrome&logoColor=B7FF45" /></a> <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/PUB.DEV-15_PACKAGES-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a> <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play the game" src="https://img.shields.io/badge/PLAY-COMMIT_RAMP_RIDER-B7FF45?style=for-the-badge&logo=gamepad&logoColor=101114" /></a> <a href="https://github.com/Awaisdev01/contributions"><img alt="Contributions" src="https://img.shields.io/badge/OPEN_SOURCE-MERGED_UPSTREAM-101114?style=for-the-badge&logo=github&logoColor=B7FF45" /></a> </p> <br/>
+◼ About
 
-<h1 align="center">Awais Ur Rehman</h1>
-<h3 align="center">Senior Mobile Engineer & Full-Stack + AI Developer</h3>
-<p align="center">
-  <b>🌐 <a href="https://awaisdev01.github.io/Awaisdev01/">My portfolio site</a></b> — live GitHub stats, every project, and the game.
-</p>
-<p align="center">
-  <i>Flutter & Swift apps · Dart/TypeScript backends · AI agents and ML-powered features — from design system to shipped store build.</i>
-</p>
-<p align="center">
-  <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play Commit Ramp Rider" src="https://img.shields.io/badge/🎮_play-Commit_Ramp_Rider-B7FF45?labelColor=101114"></a>
-  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev packages" src="https://img.shields.io/badge/pub.dev-9_packages-0175C2?logo=dart&logoColor=white"></a>
-</p>
+I design and ship production mobile apps (Flutter, Swift) and build the developer tooling that keeps AI-assisted code trustworthy — linters, audits, regression tests and guardrails — end to end, from design system to store build.
 
-> [!IMPORTANT]
-> **My previous account [`awaisdev5765`](https://github.com/awaisdev5765) was deactivated/suspended (Nov 2026).** This is my new home — everything continues here. The work didn't disappear: it lives in the repos below and in [merged commits on upstream `main` branches](https://github.com/Awaisdev01/contributions).
+<table> <tr> <td align="center" width="20%"><b>📱 Design</b><br/><sub>Rules your agent can search</sub></td> <td align="center" width="20%"><b>🔬 Code</b><br/><sub>Lints &amp; scored audits</sub></td> <td align="center" width="20%"><b>✅ Claims</b><br/><sub>Verified AI-written content</sub></td> <td align="center" width="20%"><b>🧪 AI features</b><br/><sub>Prompt regression tests</sub></td> <td align="center" width="20%"><b>🚢 Ship</b><br/><sub>Launch-readiness checks</sub></td> </tr> </table> <br/>
+◼ Open-Source Contributions
 
-I build the **missing tooling for the AI-coding era** — a full pipeline, not one-off scripts:
+Merged into the tools the Flutter ecosystem runs on. Every link is a commit you can verify.
 
-**📱 Design → 🔬 Code → ✅ Claims → 🧪 AI features → 🚢 Ship**
+Project	Contribution	Commit
+flutter/flutter	Multi-view app support in the widget test binding	74a1f4dc
+flutter/devtools	ANSI color legibility fix for logs & console	b20573fe
+kiwix/kiwix-android	8 patches — OPDS search fixes, category dialog UX, TOC gating	view commits
 
-The game above? **Commit Ramp Rider** — I turned my commit history into a dirt-bike track: every commit day became a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics & sound, zero game engine. [**Play it live →**](https://awaisdev01.github.io/commit-ramp-rider/)
+<sub>Full list → <a href="https://github.com/Awaisdev01/contributions"><code>Awaisdev01/contributions</code></a></sub>
 
----
+<br/>
+◼ Developer Tooling
+<table> <tr> <td width="33%" valign="top"> <h4>📱 Design → Code</h4> <a href="https://github.com/Awaisdev01/nativetap"><b>nativetap</b></a><br/> 464 mobile design rules (HIG, Material 3, Flutter, SwiftUI, Compose) your AI agent searches before writing UI. </td> <td width="33%" valign="top"> <h4>🔬 Code Quality</h4> <a href="https://github.com/Awaisdev01/prism_doctor"><b>prism_doctor</b></a> — A–F audits for Dart/Flutter<br/> <a href="https://github.com/Awaisdev01/prism_lints"><b>prism_lints</b></a> — design-system lints at compile time<br/> <a href="https://github.com/Awaisdev01/prism_guardrails"><b>prism_guardrails</b></a> — safety layer for agent-built Dart<br/> <a href="https://github.com/Awaisdev01/diffconscience"><b>diffconscience</b></a> — pre-handoff audit of AI diffs<br/> <a href="https://github.com/Awaisdev01/bashproof"><b>bashproof</b></a> — quoting-trap protection for shell commands </td> <td width="33%" valign="top"> <h4>🧠 AI / ML</h4> <a href="https://github.com/Awaisdev01/promptguard"><b>promptguard</b></a> — prompt regression tests in CI (OpenAI, Anthropic, Gemini, Groq)<br/> <a href="https://github.com/Awaisdev01/factcheck"><b>factcheck</b></a> — CI gate for AI-written claims. Zero deps, no LLM<br/> <a href="https://github.com/Awaisdev01/forgecode"><b>forgecode</b></a> — agent core: streaming client, tool loop, workspace tools </td> </tr> <tr> <td colspan="3" valign="top"> <h4>🚢 Ship</h4> <a href="https://github.com/Awaisdev01/shipcheck"><b>shipcheck</b></a> — launch-readiness audit: store listings, privacy, screenshots, release notes </td> </tr> </table> <br/>
+◼ The Prism Ecosystem
 
-### 📊 GitHub stats
+A Flutter design system and component suite, published on pub.dev.
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Awaisdev01&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awaisdev01&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top languages" />
-</p>
-<p>
-  <img src="https://streak-stats.demolab.com?user=Awaisdev01&theme=chartreuse-dark&hide_border=true&locale=en" height="165" alt="GitHub streak" />
-</p>
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/Awaisdev01/commit-ramp-rider@output/github-contribution-grid-snake-dark.svg" alt="Snake animation of my contribution graph" width="100%">
-</p>
+<table> <tr> <th align="left">Package</th> <th align="left">Description</th> <th>Version</th> </tr> <tr><td colspan="3"><sub><b>CORE</b></sub></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_kit"><code>prism_kit</code></a></td><td>51 adaptive components on a shared design system — tables, calendar, tabs, forms, AI chat client</td><td align="center"><code>2.1.1</code></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_glass"><code>prism_glass</code></a></td><td>Apple's Liquid Glass material, backported to Flutter</td><td align="center">—</td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_sketch"><code>prism_sketch</code></a></td><td>Wireframe-to-code for the Prism pipeline</td><td align="center">—</td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_alerts"><code>prism_alerts</code></a></td><td>Local reminders that survive DST, timezone changes and reboots</td><td align="center">—</td></tr> <tr><td colspan="3"><sub><b>UI COMPONENTS</b></sub></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_markdown"><code>prism_markdown</code></a></td><td>Fast, plugin-free Markdown widget (CommonMark + GFM)</td><td align="center"><code>0.4.0</code></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_form"><code>prism_form</code></a></td><td>Declarative forms — typed fields, composable validators, sealed results</td><td align="center"><code>0.1.0</code></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_toast"><code>prism_toast</code></a></td><td>Adaptive toasts — bottom on mobile, stacked on desktop</td><td align="center"><code>0.1.0</code></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_banner"><code>prism_banner</code></a></td><td>Dismissible in-app announcement banners</td><td align="center"><code>0.1.0</code></td></tr> <tr><td colspan="3"><sub><b>AI &amp; PLATFORM</b></sub></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_ai"><code>prism_ai</code></a></td><td>Provider-agnostic streaming AI chat client (OpenAI, Ollama…)</td><td align="center"><code>0.6.0</code></td></tr> <tr><td><a href="https://github.com/Awaisdev01/prism_updater"><code>prism_updater</code></a></td><td>Cross-platform in-app update experience</td><td align="center"><code>0.2.0</code></td></tr> </table> <br/>
+◼ Products
+<table> <tr> <td width="33%" valign="top"> <h4><a href="https://github.com/Awaisdev01/smsaria">smsaria</a></h4> <b>AI for any phone.</b> Turns a phone number into an AI service over SMS/USSD — works on basic feature phones. </td> <td width="33%" valign="top"> <h4><a href="https://github.com/Awaisdev01/stfu-2.0">stfu-2.0</a></h4> Noise, your rules.<br/><a href="https://awaisdev01.github.io/stfu-2.0/">Live app →</a> </td> <td width="33%" valign="top"> <h4><a href="https://github.com/Awaisdev01/urdu_toolkit">urdu_toolkit</a></h4> Urdu &amp; RTL text utilities for Flutter — transliteration, Nastaliq. </td> </tr> </table> <br/>
+◼ Side Project — Commit Ramp Rider
+<a href="https://awaisdev01.github.io/commit-ramp-rider/"> <img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track" /> </a>
 
-### 🏆 Open-source contributor
+My commit history as a dirt-bike track: every commit day is a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics and sound, zero game engine. Play it live →
 
-My work is merged in the tools you already use:
+<br/>
+◼ Tech Stack
+<p> <b>Languages</b><br/> <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" /> <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" /> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> </p> <p> <b>AI / ML</b><br/> <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /> <img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" /> </p> <p> <b>Backend &amp; Cloud</b><br/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" /> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" /> </p> <br/>
+◼ GitHub Activity
+<p align="center"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=Awaisdev01&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub stats" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awaisdev01&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top languages" /> </p> <p align="center"> <img height="165" src="https://streak-stats.demolab.com?user=Awaisdev01&theme=chartreuse-dark&hide_border=true&locale=en" alt="GitHub streak" /> </p> <p align="center"> <img width="100%" src="https://cdn.jsdelivr.net/gh/Awaisdev01/commit-ramp-rider@output/github-contribution-grid-snake-dark.svg" alt="Contribution graph snake animation" /> </p> <br/>
+◼ Connect
+<p> <a href="https://awaisdev01.github.io/Awaisdev01/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-101114?style=for-the-badge&logo=googlechrome&logoColor=B7FF45" /></a> <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/pub.dev-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a> <a href="https://github.com/Awaisdev01"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a> </p>
 
-| Project | Contribution |
-|---|---|
-| **flutter/flutter** | Support for multi-view apps in widget test binding — [`74a1f4dc`](https://github.com/flutter/flutter/commit/74a1f4dc) on `master` |
-| **flutter/devtools** | ANSI color legibility fix for logs & console — [`b20573fe`](https://github.com/flutter/devtools/commit/b20573fe) on `master` |
-| **kiwix/kiwix-android** | 8 landed patches: OPDS search fixes, category dialog UX, TOC gating — [commits on `main`](https://github.com/kiwix/kiwix-android/commits?author=81323680%2Bawaisdev5765%40users.noreply.github.com) |
+Issues and PRs are welcome on any repo above.
 
-Every link is a commit you can click and verify. Full list → [`Awaisdev01/contributions`](https://github.com/Awaisdev01/contributions)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:B7FF45,40:1B2A10,100:101114&section=footer" alt="" />
 
----
-
-### 🧰 The pipeline — my own tools
-
-#### 📱 Design → code
-- [`nativetap`](https://github.com/Awaisdev01/nativetap) — **464 mobile-design rules** (HIG, Material 3, Flutter, SwiftUI, Compose) your AI agent searches before writing any phone screen UI
-
-#### 🔬 Code quality
-- [`prism_doctor`](https://github.com/Awaisdev01/prism_doctor) — scored A–F audits for Dart/Flutter: hardcoded colors, magic numbers, dead code
-- [`prism_lints`](https://github.com/Awaisdev01/prism_lints) — custom analyzer lints that catch design-system violations at compile time
-- [`prism_guardrails`](https://github.com/Awaisdev01/prism_guardrails) — the AI safety layer for agent-built Dart code
-- [`diffconscience`](https://github.com/Awaisdev01/diffconscience) — pre-handoff audit of AI agent diffs (leftover debug code, secrets, TODOs)
-- [`bashproof`](https://github.com/Awaisdev01/bashproof) — stops AI-generated shell commands from breaking on quoting traps
-
-#### 🧠 AI / ML
-- [`promptguard`](https://github.com/Awaisdev01/promptguard) — **regression testing for AI features** across OpenAI/Anthropic/Gemini/Groq — catch prompt regressions in CI before users do
-- [`factcheck`](https://github.com/Awaisdev01/factcheck) — **the CI gate for AI-written content**: verify claims in AI text against a facts file you control. Zero deps, no LLM
-- [`forgecode`](https://github.com/Awaisdev01/forgecode) — **AI agent core** with streaming LLM client, tool-call loop and workspace tools — one core, four platforms (web, Electron, VS Code)
-
-#### 🚢 Ship
-- [`shipcheck`](https://github.com/Awaisdev01/shipcheck) — launch-readiness audit: store listings, privacy, screenshots, release notes
-
----
-
-### 🧩 The Prism ecosystem — 15 packages on pub.dev
-
-**Core:**
-
-| Package | What it is |
-|---|---|
-| [`prism_kit`](https://github.com/Awaisdev01/prism_kit) | **51 adaptive components** on a shared design system — tables, calendar, tabs, forms, AI chat client · `2.1.1` |
-| [`prism_glass`](https://github.com/Awaisdev01/prism_glass) | Apple's **Liquid Glass** material, backported to Flutter |
-| [`prism_sketch`](https://github.com/Awaisdev01/prism_sketch) | Wireframe-to-code for the Prism pipeline |
-| [`prism_alerts`](https://github.com/Awaisdev01/prism_alerts) | Local reminders that survive DST, timezone changes and reboots |
-
-**UI components:**
-
-| Package | What it is |
-|---|---|
-| [`prism_markdown`](https://github.com/Awaisdev01/prism_markdown) | Fast, plugin-free Markdown widget (full CommonMark + GFM) · `0.4.0` |
-| [`prism_form`](https://github.com/Awaisdev01/prism_form) | Declarative forms — typed fields, composable validators, sealed results · `0.1.0` |
-| [`prism_toast`](https://github.com/Awaisdev01/prism_toast) | Adaptive toast notifications — bottom on mobile, stacked on desktop · `0.1.0` |
-| [`prism_banner`](https://github.com/Awaisdev01/prism_banner) | Dismissible in-app announcement banners · `0.1.0` |
-
-**AI & platform:**
-
-| Package | What it is |
-|---|---|
-| [`prism_ai`](https://github.com/Awaisdev01/prism_ai) | Provider-agnostic streaming AI chat client (OpenAI, Ollama…) · `0.6.0` |
-| [`prism_updater`](https://github.com/Awaisdev01/prism_updater) | Cross-platform in-app update experience · `0.2.0` |
-
----
-
-### ⚡ Products
-
-- [`smsaria`](https://github.com/Awaisdev01/smsaria) — **AI for any phone**: turns a phone number into an AI service over SMS/USSD (works on basic feature phones)
-- [`stfu-2.0`](https://github.com/Awaisdev01/stfu-2.0) — noise, your rules · [live app](https://awaisdev01.github.io/stfu-2.0/)
-- [`urdu_toolkit`](https://github.com/Awaisdev01/urdu_toolkit) — Urdu & RTL text utilities for Flutter (transliteration, Nastaliq)
-
----
-
-### 🛠️ Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white" alt="Dart">
-  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" alt="Flutter">
-  <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
-</p>
-<p>
-  <b>AI / ML:</b>
-  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Anthropic-191919?logo=anthropic&logoColor=white" alt="Anthropic">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white" alt="Gemini">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white" alt="LangChain">
-</p>
-<p>
-  <b>Backend & cloud:</b>
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" alt="Firebase">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white" alt="GCP">
-</p>
-
-### 📫 Find me
-
-- pub.dev: [all 15 packages](https://pub.dev/packages?q=prism)
-- Issues and PRs welcome on any repo above
+<sub>Formerly <a href="https://github.com/awaisdev5765"><code>awaisdev5765</code></a>. All ongoing work lives here, and earlier work is preserved in the repos above and in <a href="https://github.com/Awaisdev01/contributions">merged upstream commits</a>.</sub>
 
 <!-- Old account: awaisdev5765 (suspended Nov 2026). This account carries all ongoing work. -->
