@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 240" width="1240" height="240" role="img" aria-label="Merged into Flutter: 2 pull requests merged into the Flutter organization">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F1217"/><stop offset="1" stop-color="#18120F" stop-opacity="0"/></linearGradient>
+<linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#B7FF45" stop-opacity=".55"/><stop offset="1" stop-color="#8957E5" stop-opacity=".55"/></linearGradient></defs>
+<style>
+.eye{font:700 14px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#B7FF45;letter-spacing:4px}
+.sub{font:500 15px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#8B93A1}
+.repo{font:600 14px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#B7FF45}
+.ttl{font:600 16px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#E8EAED}
+.pr{font:600 14px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#8B93A1}
+.dt{font:500 13px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#8B93A1}
+.mg{font:700 12px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#C9B3FF;letter-spacing:1.5px}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+.r{animation:up .6s ease-out both}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+.ic{animation:pulse 3s ease-in-out infinite}
+</style>
+<rect x="1.5" y="1.5" width="1237" height="237" rx="20" fill="#0F1217" stroke="url(#bd)" stroke-width="2"/>
+<g class="ic" transform="translate(30,26)" fill="none" stroke="#8957E5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="8" cy="7" r="4"/><circle cx="8" cy="33" r="4"/><circle cx="32" cy="22" r="4"/><path d="M8 11v18"/><path d="M8 18c0 6 8 4 20 4"/></g>
+<text class="eye" x="84" y="46">MERGED INTO FLUTTER</text>
+<text class="sub" x="84" y="70">2 pull requests merged into the Flutter organization: framework and DevTools</text>
+<g class="r" style="animation-delay:0.20s">
+<rect x="24" y="104" width="1192" height="50" rx="12" fill="#151922" stroke="#242A33"/>
+<circle cx="52" cy="129" r="5" fill="#8957E5"/>
+<text class="repo" x="70" y="134">flutter/flutter</text>
+<text class="ttl" x="252" y="134">Support multi-view apps in widget test binding</text>
+<text class="pr" x="900" y="134">#194480</text>
+<text class="dt" x="985" y="134">Nov 13, 2026</text>
+<rect x="1100" y="115" width="98" height="28" rx="14" fill="#8957E5" fill-opacity=".18" stroke="#8957E5"/>
+<text class="mg" x="1149" y="134" text-anchor="middle">MERGED</text>
+</g><g class="r" style="animation-delay:0.35s">
+<rect x="24" y="166" width="1192" height="50" rx="12" fill="#151922" stroke="#242A33"/>
+<circle cx="52" cy="191" r="5" fill="#8957E5"/>
+<text class="repo" x="70" y="196">flutter/devtools</text>
+<text class="ttl" x="252" y="196">Adjust ANSI colors in logs and console for theme legibility</text>
+<text class="pr" x="900" y="196">#10060</text>
+<text class="dt" x="985" y="196">Nov 5, 2026</text>
+<rect x="1100" y="177" width="98" height="28" rx="14" fill="#8957E5" fill-opacity=".18" stroke="#8957E5"/>
+<text class="mg" x="1149" y="196" text-anchor="middle">MERGED</text>
+</g>
+</svg>

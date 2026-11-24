@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="assets/banner.svg" alt="Awais Ur Rehman — Senior Software Engineer. Mobile, Full-Stack and AI Systems." />
+  <img width="100%" src="assets/hero.svg" alt="Awais Ur Rehman — Senior Software Engineer. Mobile, Full-Stack and AI Systems." />
 </p>
 
 <p align="center">
@@ -42,12 +42,16 @@ One toolchain, five stages. Each tool I build plugs into the next.
 
 <img width="100%" src="assets/section-opensource.svg" alt="Open-Source Contributions" />
 
-Merged into the tools the Flutter ecosystem runs on. Every link is a commit you can verify.
+<a href="https://github.com/flutter/flutter/pull/194480">
+  <img width="100%" src="assets/flutter-merged.svg" alt="Merged into Flutter: flutter/flutter #194480 and flutter/devtools #10060" />
+</a>
 
-| Project | Contribution | Commit |
+Merged into the tools the Flutter ecosystem runs on. Every link is a PR or commit you can verify.
+
+| Project | Contribution | Link |
 |:--|:--|:--|
-| **[flutter/flutter](https://github.com/flutter/flutter)** | Multi-view app support in the widget test binding | [`74a1f4dc`](https://github.com/flutter/flutter/commit/74a1f4dc) |
-| **[flutter/devtools](https://github.com/flutter/devtools)** | ANSI color legibility fix for logs & console | [`b20573fe`](https://github.com/flutter/devtools/commit/b20573fe) |
+| **[flutter/flutter](https://github.com/flutter/flutter)** | Support multi-view apps in widget test binding | [PR #194480](https://github.com/flutter/flutter/pull/194480) · [`74a1f4dc`](https://github.com/flutter/flutter/commit/74a1f4dc) |
+| **[flutter/devtools](https://github.com/flutter/devtools)** | Adjust ANSI colors in logs and console for theme legibility | [PR #10060](https://github.com/flutter/devtools/pull/10060) · [`b20573fe`](https://github.com/flutter/devtools/commit/b20573fe) |
 | **[kiwix/kiwix-android](https://github.com/kiwix/kiwix-android)** | 8 patches: OPDS search fixes, category dialog UX, TOC gating | [view commits](https://github.com/kiwix/kiwix-android/commits?author=81323680%2Bawaisdev5765%40users.noreply.github.com) |
 
 <sub>Full list → <a href="https://github.com/Awaisdev01/contributions"><code>Awaisdev01/contributions</code></a></sub>
