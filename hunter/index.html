@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Hallucination Hunter</title>
+<meta name="description" content="Read an AI-written summary, check it against the facts file, and flag every claim the facts don't support.">
+<style>
+:root{--bg:#0B0C0F;--paper:#14171C;--line:#262B33;--ink:#E8EAED;--mute:#9AA3B2;--acc:#B7FF45;--bad:#FF8A80;--warn:#FFC857;
+--serif:Georgia,"Iowan Old Style","Palatino Linotype",serif;--sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans);min-height:100vh}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:22px 0 14px}
+.logo{font:600 17px var(--sans);letter-spacing:-.01em}
+.stats{display:flex;gap:22px;font:14px var(--sans);color:var(--mute)}
+.stats b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.bar{height:3px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:28px}
+.bar i{display:block;height:100%;width:100%;background:var(--acc);transition:width 1s linear}
+.bar.low i{background:var(--warn)}
+h1{font:700 clamp(34px,6vw,54px)/1.06 var(--sans);letter-spacing:-.025em;margin:0 0 18px;max-width:14em}
+h2{font:600 15px var(--sans);color:var(--mute);margin:0 0 12px}
+p{margin:0}
+.intro{max-width:620px;margin-top:7vh}
+.intro .lead{font-size:18px;color:var(--mute);max-width:34em}
+.steps{margin:28px 0 32px;padding:0 0 0 20px;color:var(--mute);display:grid;gap:10px}
+.steps b{color:var(--ink);font-weight:600}
+.btn{background:var(--acc);color:#0B0C0F;border:0;border-radius:8px;font:600 15px var(--sans);padding:12px 22px;min-height:46px;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.45;cursor:not-allowed;filter:none}
+.btn.quiet{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn.quiet:hover{border-color:var(--mute)}
+.small{font-size:14px;color:var(--mute)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:4px}
+.board{display:grid;gap:22px;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:start}
+@media(max-width:860px){.board{grid-template-columns:1fr}}
+.doc{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:26px 28px}
+.doc .title{font:600 13px var(--sans);color:var(--mute);margin-bottom:16px}
+.text{font:19px/2.05 var(--serif);margin:0;max-width:34em}
+.s{font:inherit;color:inherit;background:none;border:0;padding:2px 3px;margin:0 -1px;cursor:pointer;text-align:left;border-radius:3px;
+ box-decoration-break:clone;-webkit-box-decoration-break:clone;border-bottom:1px dashed #4a5260;transition:background .12s}
+.s:hover{background:rgba(255,255,255,.07)}
+.s[aria-pressed=true]{background:rgba(183,255,69,.2);border-bottom:2px solid var(--acc)}
+.s:disabled{cursor:default;color:inherit}
+.s.ok{background:rgba(183,255,69,.2);border-bottom:2px solid var(--acc)}
+.s.fa{background:rgba(255,138,128,.18);border-bottom:2px solid var(--bad)}
+.s.ms{background:rgba(255,200,87,.16);border-bottom:2px solid var(--warn)}
+.facts{background:#0F1217;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.facts .bar2{display:flex;justify-content:space-between;padding:10px 16px;border-bottom:1px solid var(--line);font:13px var(--mono);color:var(--mute)}
+dl{margin:0;padding:8px 0;font:14px/1.5 var(--mono)}
+.f{display:grid;grid-template-columns:128px 1fr;gap:14px;padding:7px 16px;border-left:3px solid transparent}
+.f dt{color:var(--mute)}
+.f dd{margin:0;overflow-wrap:anywhere}
+.f.hl{background:rgba(183,255,69,.08);border-left-color:var(--acc)}
+.act{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:22px}
+.result{margin:0 0 22px;padding:16px 18px;border-left:3px solid var(--acc);background:var(--paper);border-radius:0 10px 10px 0}
+.result strong{font-size:20px;font-weight:700;letter-spacing:-.01em}
+.notes{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px;max-width:44em}
+.notes li{padding-left:14px;border-left:2px solid var(--line);font-size:15px;color:var(--mute)}
+.notes li.ok{border-color:var(--acc)}.notes li.fa{border-color:var(--bad)}.notes li.ms{border-color:var(--warn)}
+.notes b{color:var(--ink);font-weight:600}
+.end{max-width:680px;margin-top:6vh}
+.score{font:700 clamp(64px,14vw,112px)/1 var(--sans);letter-spacing:-.04em;font-variant-numeric:tabular-nums;margin:6px 0 4px}
+.rows{list-style:none;margin:26px 0;padding:0;border-top:1px solid var(--line)}
+.rows li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+.rows span:last-child{color:var(--mute);font-variant-numeric:tabular-nums}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+footer{margin-top:48px;font-size:14px;color:var(--mute)}
+footer a{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Hallucination Hunter</div>
+    <div class="stats" id="stats" hidden>
+      <span>Round <b id="sr">1</b> of <b id="sn">4</b></span>
+      <span>Score <b id="ss">0</b></span>
+      <span>Time <b id="st">60</b>s</span>
+    </div>
+  </header>
+  <div class="bar" id="bar" hidden><i id="fill"></i></div>
+  <main id="app"></main>
+  <footer>Inspired by <a href="https://github.com/Awaisdev01/factcheck">factcheck</a>, a CI gate that checks AI-written claims against a facts file. All products and numbers in this game are made up.</footer>
+</div>
+<script>
+const ROUNDS=[
+{title:"Release notes: Orbit Notes 2.4",facts:[["version","2.4.0"],["released","2026-03-12"],["requires","iOS 16+, Android 9+"],["new","offline mode, dark theme"],["fixed","sync crash on iPad"],["removed","legacy export"],["app_size","38 MB"]],
+ s:[["Orbit Notes 2.4.0 shipped on March 12, 2026."],["It requires iOS 16 or later and Android 9 or later."],["The headline feature is real-time collaboration between users.",{key:"new",why:"The facts list offline mode and a dark theme as new. Collaboration is not mentioned."}],["Offline mode and a dark theme are new in this release."],["The update fixes a sync crash on iPad and trims the app to 24 MB.",{key:"app_size",why:"The app size is 38 MB, not 24 MB."}],["The legacy export option has been removed."]]},
+{title:"Incident review: login outage",facts:[["date","2026-05-02"],["duration","47 min"],["cause","expired TLS certificate, auth service"],["impact","login failures, 8% of requests"],["detected_by","monitoring alert, 14:06 UTC"],["resolution","certificate rotated, renewal alert added"],["data_loss","none"]],
+ s:[["A login outage on May 2, 2026 lasted 47 minutes."],["The root cause was a database migration that locked the users table.",{key:"cause",why:"The cause was an expired TLS certificate on the auth service."}],["About 8% of requests failed during the incident."],["No customer data was lost."],["Engineers found out when users flooded support, and had it fixed within 20 minutes.",{key:"detected_by",why:"A monitoring alert caught it, and the outage lasted 47 minutes, not 20."}],["The team rotated the certificate and added a renewal alert."]]},
+{title:"Benchmark summary: startup time",facts:[["device","Pixel 8"],["runs","30"],["cold_start_before","520 ms"],["cold_start_after","410 ms"],["improvement","21%"],["frame_drops","0.4%"],["memory","unchanged"]],
+ s:[["Startup was measured on a Pixel 8 across 30 runs."],["Cold start fell from 520 ms to 410 ms."],["That is a 40% improvement.",{key:"improvement",why:"520 to 410 ms is a 21% improvement."}],["Frame drops stayed at 0.4%."],["Memory use also dropped noticeably.",{key:"memory",why:"Memory is listed as unchanged."}],["The results prove the app starts faster on every Android phone.",{key:"device",why:"Only one device was tested. The data cannot support a claim about every phone."}]]},
+{title:"Store listing: Orbit Notes",facts:[["price","Free"],["pro_plan","$4.99 / month"],["rating","4.6 from 1,200 ratings"],["age_rating","4+"],["privacy","data not sold, analytics opt-in"],["support","email only"],["offline","yes"]],
+ s:[["Orbit Notes is free, with an optional Pro plan at $4.99 a month."],["It holds a 4.6 rating from 1,200 ratings."],["The App Store rates it 12+.",{key:"age_rating",why:"The age rating is 4+."}],["User data is never sold, and analytics are opt-in."],["Support is available through live chat around the clock.",{key:"support",why:"Support is email only."}],["It works offline."],["Pro can also be billed yearly at $59.99.",{key:"pro_plan",why:"Only a monthly price is listed. A yearly price is invented."}]]}
+];
+const $=id=>document.getElementById(id),app=$("app");
+let S;
+const best=()=>{try{return +localStorage.getItem("hh-best")||0}catch(e){return 0}};
+const save=v=>{try{localStorage.setItem("hh-best",v)}catch(e){}};
+const esc=t=>t.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function chrome(on){$("stats").hidden=!on;$("bar").hidden=!on}
+function intro(){
+ chrome(false);const b=best();
+ app.innerHTML=`<section class="intro"><h1>Find the claims the facts don't back up.</h1>
+ <p class="lead">AI summaries sound sure of themselves, even when they are wrong. Read each one against its facts file and catch the parts that don't hold up.</p>
+ <ol class="steps"><li><b>Read</b> the summary on the left and compare it with the facts file.</li>
+ <li><b>Click</b> every sentence you think the facts do not support.</li>
+ <li><b>Check your flags</b> before the 60 seconds run out. A correct flag scores 10, a wrong flag costs 5, and spare time adds a bonus.</li></ol>
+ <div class="btns"><button class="btn" id="go">Start round 1</button></div>
+ ${b?`<p class="small" style="margin-top:18px">Your best score: ${b}</p>`:""}</section>`;
+ $("go").onclick=()=>{S={i:0,score:0,res:[]};round()};
+}
+function round(){
+ const R=ROUNDS[S.i];S.flag=new Set();S.t=60;S.done=false;chrome(true);
+ $("sr").textContent=S.i+1;$("sn").textContent=ROUNDS.length;$("ss").textContent=S.score;
+ app.innerHTML=`<div class="board"><article class="doc"><div class="title">AI-written summary: ${esc(R.title)}</div>
+ <p class="text" id="txt">${R.s.map((s,i)=>`<button class="s" data-i="${i}" aria-pressed="false">${esc(s[0])}</button>`).join(" ")}</p></article>
+ <aside class="facts" aria-label="Facts file"><div class="bar2"><span>facts.txt</span><span>source of truth</span></div>
+ <dl>${R.facts.map(f=>`<div class="f" data-k="${f[0]}"><dt>${f[0]}</dt><dd>${esc(f[1])}</dd></div>`).join("")}</dl></aside></div>
+ <div class="act"><p class="small" id="hint">Click a sentence to flag it. Click again to remove the flag.</p><button class="btn" id="chk">Check my flags</button></div>
+ <div id="out" aria-live="polite"></div>`;
+ $("txt").onclick=e=>{const b=e.target.closest(".s");if(!b||S.done)return;const i=+b.dataset.i,on=!S.flag.has(i);
+  on?S.flag.add(i):S.flag.delete(i);b.setAttribute("aria-pressed",on);
+  $("hint").textContent=S.flag.size?`${S.flag.size} flagged`:"Click a sentence to flag it. Click again to remove the flag."};
+ $("chk").onclick=()=>finish(false);
+ tick();clearInterval(S.timer);S.timer=setInterval(()=>{S.t--;tick();if(S.t<=0)finish(true)},1000);
+}
+function tick(){$("st").textContent=S.t;$("fill").style.width=(S.t/60*100)+"%";$("bar").classList.toggle("low",S.t<=15)}
+function finish(timeUp){
+ if(S.done)return;S.done=true;clearInterval(S.timer);
+ const R=ROUNDS[S.i];let ok=0,fa=0,ms=0;const notes=[];
+ R.s.forEach((s,i)=>{const bad=!!s[1],fl=S.flag.has(i),b=document.querySelector(`.s[data-i="${i}"]`);b.disabled=true;
+  const q=esc(s[0].split(" ").slice(0,6).join(" "))+"...";
+  if(bad&&fl){ok++;b.classList.add("ok");notes.push(`<li class="ok"><b>Caught:</b> "${q}" ${esc(s[1].why)}</li>`)}
+  else if(bad){ms++;b.classList.add("ms");notes.push(`<li class="ms"><b>Missed:</b> "${q}" ${esc(s[1].why)}</li>`)}
+  else if(fl){fa++;b.classList.add("fa");notes.push(`<li class="fa"><b>Supported by the facts:</b> "${q}" Flagging it cost you points.</li>`)}});
+ const bonus=S.flag.size?Math.floor(S.t/6):0,pts=Math.max(0,ok*10-fa*5+bonus);
+ S.score+=pts;S.res.push({t:R.title,ok,tot:ok+ms,fa,pts});$("ss").textContent=S.score;
+ R.s.forEach(s=>{if(s[1])document.querySelector(`.f[data-k="${s[1].key}"]`).classList.add("hl")});
+ const last=S.i===ROUNDS.length-1;
+ $("chk").remove();$("hint").remove();
+ $("out").innerHTML=`<div class="result"><strong>${timeUp?"Time is up. ":""}You caught ${ok} of ${ok+ms} bad claims for ${pts} points.</strong>
+ <p class="small" style="margin-top:4px">${fa?`${fa} false alarm${fa>1?"s":""}. `:""}${bonus?`Time bonus: ${bonus}.`:""}</p></div>
+ <ul class="notes">${notes.join("")}</ul>
+ <div class="act"><span></span><button class="btn" id="nx">${last?"See final score":"Start round "+(S.i+2)}</button></div>`;
+ $("nx").focus();$("nx").onclick=()=>{if(last)end();else{S.i++;round()}};
+ $("out").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+function end(){
+ chrome(false);const prev=best(),isBest=S.score>prev;if(isBest)save(S.score);
+ const r=S.score>=110?"Staff reviewer":S.score>=80?"Senior reviewer":S.score>=50?"Reviewer":"Trainee";
+ const msg={"Staff reviewer":"Very little gets past you.","Senior reviewer":"You catch most of what slips through.","Reviewer":"Solid, but a few claims got through.","Trainee":"Hallucinations are good at hiding. Try again."}[r];
+ app.innerHTML=`<section class="end"><h2>Final score</h2><div class="score">${S.score}</div><h1 style="font-size:clamp(26px,4vw,36px);margin-bottom:8px">${r}</h1>
+ <p class="lead small" style="font-size:16px">${msg}${isBest&&prev?" That is a new personal best.":""}</p>
+ <ul class="rows">${S.res.map((x,i)=>`<li><span>Round ${i+1}: ${esc(x.t.split(": ")[1])}</span><span>${x.ok}/${x.tot} caught${x.fa?`, ${x.fa} false alarm${x.fa>1?"s":""}`:""}, ${x.pts} pts</span></li>`).join("")}</ul>
+ <div class="btns"><button class="btn" id="again">Play again</button><a class="btn quiet" style="text-decoration:none;display:inline-flex;align-items:center" href="https://github.com/Awaisdev01/factcheck">See how factcheck works</a></div></section>`;
+ $("again").onclick=()=>{S={i:0,score:0,res:[]};round()};$("again").focus();
+}
+intro();
+</script>
+</body>
+</html>

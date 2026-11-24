@@ -17,7 +17,7 @@
   <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/PUB.DEV-15_PACKAGES-0175C2?style=flat-square&logo=dart&logoColor=white" /></a>
   <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions&hl=en"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-414141?style=flat-square&logo=googleplay&logoColor=white" /></a>
   <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img alt="App Store" src="https://img.shields.io/badge/APP_STORE-0D96F6?style=flat-square&logo=appstore&logoColor=white" /></a>
-  <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play" src="https://img.shields.io/badge/PLAY-COMMIT_RAMP_RIDER-B7FF45?style=flat-square&logo=gamepad&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
+  <a href="https://awaisdev01.github.io/Awaisdev01/hunter/"><img alt="Play" src="https://img.shields.io/badge/PLAY-HALLUCINATION_HUNTER-B7FF45?style=flat-square&logo=gamepad&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/Awaisdev01?style=flat-square&label=followers&color=B7FF45&labelColor=0B0C0F" />
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Awaisdev01&label=profile%20views&style=flat-square&color=B7FF45&labelColor=0B0C0F" />
 </p>
@@ -199,6 +199,16 @@ Shipped to production on both stores.
 <img width="100%" src="assets/section-stack.svg" alt="Tech Stack" />
 
 <img width="100%" src="assets/stack.svg" alt="Technology stack: mobile, languages, web and backend, AI and LLM, ML, data, cloud and DevOps, practices and tools" />
+
+<br/>
+
+<img width="100%" src="assets/section-play.svg" alt="Play: Hallucination Hunter" />
+
+AI summaries sound confident even when they are wrong. This is a small game built around the idea behind [`factcheck`](https://github.com/Awaisdev01/factcheck): compare AI-written text with a facts file and catch what the facts don't support.
+
+<a href="https://awaisdev01.github.io/Awaisdev01/hunter/">
+  <img width="100%" src="assets/hunter-card.svg" alt="Hallucination Hunter: catch the claims an AI summary got wrong. Play now." />
+</a>
 
 <br/>
 
