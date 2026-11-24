@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 90" width="1240" height="90" role="img" aria-label="Footer">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#B7FF45" stop-opacity="0"/><stop offset=".5" stop-color="#B7FF45"/><stop offset="1" stop-color="#B7FF45" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .f{font:500 13px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#8B93A1;letter-spacing:2px}
+  @keyframes sh{0%{transform:translateX(-120px)}100%{transform:translateX(120px)}}
+  .s{animation:sh 6s ease-in-out infinite alternate}
+</style>
+<g class="s"><rect x="120" y="30" width="1000" height="2" fill="url(#g)"/></g>
+<text class="f" x="620" y="66" text-anchor="middle">AWAIS UR REHMAN  ·  SOFTWARE ENGINEER  ·  MOBILE  ·  FULL-STACK  ·  AI</text>
+</svg>

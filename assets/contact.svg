@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 190" width="1240" height="190" role="img" aria-label="Contact: awaisdev5765@gmail.com">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F1217"/><stop offset="1" stop-color="#1A280B"/></linearGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7FF45"/><stop offset="1" stop-color="#6FD13A"/></linearGradient>
+</defs>
+<style>
+  .h{font:800 34px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#fff;letter-spacing:-.5px}
+  .p{font:400 16px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#8B93A1}
+  .e{font:600 24px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#B7FF45}
+  @keyframes ring{0%{transform:scale(.8);opacity:.7}100%{transform:scale(1.5);opacity:0}}
+  .rg{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+</style>
+<rect x="1.5" y="1.5" width="1237" height="187" rx="20" fill="url(#bg)" stroke="#B7FF45" stroke-opacity=".35" stroke-width="3"/>
+<g transform="translate(70,95)">
+  <circle class="rg" r="34" fill="none" stroke="#B7FF45" stroke-width="2"/>
+  <circle r="34" fill="url(#acc)"/>
+  <g fill="none" stroke="#0B0C0F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-16" y="-11" width="32" height="22" rx="4"/><path d="M-15 -8l15 11 15-11"/>
+  </g>
+</g>
+<text class="h" x="135" y="82">Let's build something great.</text>
+<text class="p" x="135" y="112">Get in touch for collaboration, consulting or engineering work.</text>
+<text class="e" x="135" y="152">awaisdev5765@gmail.com</text>
+</svg>

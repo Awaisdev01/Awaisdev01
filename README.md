@@ -1,68 +1,46 @@
-<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:0B0C0F,55:16210C,100:B7FF45&text=Awais%20Ur%20Rehman&fontColor=FFFFFF&fontSize=54&fontAlignY=38&desc=Senior%20Mobile%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20AI%20Systems&descSize=18&descAlignY=60&animation=fadeIn" alt="Awais Ur Rehman — Senior Mobile Engineer, Full-Stack and AI Systems" />
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=B7FF45&center=true&vCenter=true&width=760&lines=Flutter+%26+Swift+apps+shipped+to+the+stores;Agentic+AI+%C2%B7+LLM+tooling+%C2%B7+RAG+pipelines;Design+systems+that+scale+across+platforms;Tooling+for+the+AI-coding+era" alt="Typing animation" />
+  <img width="100%" src="assets/banner.svg" alt="Awais Ur Rehman — Senior Software Engineer. Mobile, Full-Stack and AI Systems." />
 </p>
 
 <p align="center">
-  <a href="https://awaisdev01.github.io/Awaisdev01/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-0B0C0F?style=for-the-badge&logo=googlechrome&logoColor=B7FF45" /></a>
-  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/PUB.DEV-15_PACKAGES-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a>
-  <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play" src="https://img.shields.io/badge/PLAY-COMMIT_RAMP_RIDER-B7FF45?style=for-the-badge&logo=gamepad&logoColor=0B0C0F" /></a>
-  <a href="https://github.com/Awaisdev01/contributions"><img alt="Open source" src="https://img.shields.io/badge/OPEN_SOURCE-MERGED_UPSTREAM-0B0C0F?style=for-the-badge&logo=github&logoColor=B7FF45" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3200&pause=1100&color=B7FF45&center=true&vCenter=true&width=820&lines=Native+%26+cross-platform+mobile%3A+Flutter+%C2%B7+Swift+%C2%B7+Kotlin;Full-stack+products+from+API+to+app+store;Agentic+AI+%C2%B7+LLM+tooling+%C2%B7+RAG+pipelines;Tooling+for+the+AI-coding+era" alt="Typing animation" />
 </p>
+
 <p align="center">
+  <a href="mailto:awaisdev5765@gmail.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-awaisdev5765@gmail.com-B7FF45?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://awaisdev01.github.io/Awaisdev01/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-0B0C0F?style=for-the-badge&logo=googlechrome&logoColor=B7FF45" /></a>
   <a href="https://medium.com/@awaiscs"><img alt="Medium" src="https://img.shields.io/badge/MEDIUM-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
-  <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions&hl=en"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-414141?style=for-the-badge&logo=googleplay&logoColor=white" /></a>
-  <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img alt="App Store" src="https://img.shields.io/badge/APP_STORE-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" /></a>
 </p>
 
 <p align="center">
+  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/PUB.DEV-15_PACKAGES-0175C2?style=flat-square&logo=dart&logoColor=white" /></a>
+  <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions&hl=en"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-414141?style=flat-square&logo=googleplay&logoColor=white" /></a>
+  <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img alt="App Store" src="https://img.shields.io/badge/APP_STORE-0D96F6?style=flat-square&logo=appstore&logoColor=white" /></a>
+  <a href="https://awaisdev01.github.io/commit-ramp-rider/"><img alt="Play" src="https://img.shields.io/badge/PLAY-COMMIT_RAMP_RIDER-B7FF45?style=flat-square&logo=gamepad&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <img alt="Followers" src="https://img.shields.io/github/followers/Awaisdev01?style=flat-square&label=followers&color=B7FF45&labelColor=0B0C0F" />
-  <img alt="Public repos" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FAwaisdev01&query=%24.public_repos&label=public%20repos&style=flat-square&color=B7FF45&labelColor=0B0C0F" />
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=Awaisdev01&label=profile%20views&style=flat-square&color=B7FF45&labelColor=0B0C0F" />
-  <img alt="Open to work" src="https://img.shields.io/badge/status-building-B7FF45?style=flat-square&labelColor=0B0C0F" />
 </p>
 
 <br/>
 
-<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
-## ◼ About
+<img width="100%" src="assets/section-about.svg" alt="About" />
 
-I design and ship **production mobile apps** and build the **engineering tooling that keeps AI-assisted code trustworthy**: linters, audits, regression tests and guardrails, covering the path from design system to store build.
+I build software across the whole stack: **native and cross-platform mobile** (Flutter, Swift, Kotlin and more), **backends and web**, and **AI systems**. Alongside client work I build the **engineering tooling that keeps AI-assisted code trustworthy**: linters, audits, regression tests and guardrails, covering the path from design system to store build.
 
-<table>
-  <tr>
-    <td width="25%" valign="top" align="center"><h3>📱</h3><b>Mobile</b><br/><sub>Flutter, Swift, Kotlin<br/>Adaptive design systems<br/>Store-ready releases</sub></td>
-    <td width="25%" valign="top" align="center"><h3>🧠</h3><b>AI Systems</b><br/><sub>Agents &amp; tool-call loops<br/>Multi-provider LLM clients<br/>Prompt regression testing</sub></td>
-    <td width="25%" valign="top" align="center"><h3>🛡️</h3><b>Code Trust</b><br/><sub>Custom analyzer lints<br/>Scored code audits<br/>Claim verification in CI</sub></td>
-    <td width="25%" valign="top" align="center"><h3>⚙️</h3><b>Full-Stack</b><br/><sub>Dart &amp; TypeScript backends<br/>Realtime &amp; SMS/USSD services<br/>Cloud-native deploys</sub></td>
-  </tr>
-</table>
+<img width="100%" src="assets/about.svg" alt="Mobile, AI Systems, Code Trust and Full-Stack capabilities" />
 
 <br/>
 
-<!-- ═══════════════════════════ PIPELINE ═══════════════════════════ -->
-## ◼ The Pipeline
+<img width="100%" src="assets/section-pipeline.svg" alt="The Pipeline" />
 
 One toolchain, five stages. Each tool I build plugs into the next.
 
-```mermaid
-flowchart LR
-    A["📱 DESIGN<br/>nativetap<br/>prism_sketch"] --> B["🔬 CODE<br/>prism_lints<br/>prism_doctor<br/>prism_guardrails"]
-    B --> C["✅ CLAIMS<br/>factcheck<br/>diffconscience"]
-    C --> D["🧪 AI FEATURES<br/>promptguard<br/>forgecode<br/>prism_ai"]
-    D --> E["🚢 SHIP<br/>shipcheck"]
-
-    classDef stage fill:#0B0C0F,stroke:#B7FF45,stroke-width:2px,color:#E8FFC2;
-    class A,B,C,D,E stage;
-```
+<img width="100%" src="assets/pipeline.svg" alt="Pipeline: Design, Code, Claims, AI features, Ship" />
 
 <br/>
 
-<!-- ═══════════════════════════ OPEN SOURCE ═══════════════════════════ -->
-## ◼ Open-Source Contributions
+<img width="100%" src="assets/section-opensource.svg" alt="Open-Source Contributions" />
 
 Merged into the tools the Flutter ecosystem runs on. Every link is a commit you can verify.
 
@@ -76,8 +54,7 @@ Merged into the tools the Flutter ecosystem runs on. Every link is a commit you 
 
 <br/>
 
-<!-- ═══════════════════════════ TOOLING ═══════════════════════════ -->
-## ◼ Developer Tooling
+<img width="100%" src="assets/section-tooling.svg" alt="Developer Tooling" />
 
 <table>
   <tr>
@@ -114,8 +91,7 @@ Merged into the tools the Flutter ecosystem runs on. Every link is a commit you 
 
 <br/>
 
-<!-- ═══════════════════════════ PRISM ═══════════════════════════ -->
-## ◼ The Prism Ecosystem
+<img width="100%" src="assets/section-prism.svg" alt="The Prism Ecosystem" />
 
 A Flutter design system and component suite, published on [pub.dev](https://pub.dev/packages?q=prism).
 
@@ -142,8 +118,7 @@ A Flutter design system and component suite, published on [pub.dev](https://pub.
 
 <br/>
 
-<!-- ═══════════════════════════ PRODUCTS ═══════════════════════════ -->
-## ◼ Products
+<img width="100%" src="assets/section-products.svg" alt="Products" />
 
 <table>
   <tr>
@@ -164,88 +139,7 @@ A Flutter design system and component suite, published on [pub.dev](https://pub.
 
 <br/>
 
-<!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
-## ◼ Tech Stack
-
-<table>
-  <tr>
-    <td width="170" valign="middle"><b>📱 Mobile</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=flutter,dart,swift,kotlin,androidstudio,xcode,firebase&perline=10" alt="Mobile" /><br/>
-      <img src="https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white" alt="SwiftUI" />
-      <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-      <img src="https://img.shields.io/badge/Riverpod-00B0FF?style=flat-square" alt="Riverpod" />
-      <img src="https://img.shields.io/badge/BLoC-0175C2?style=flat-square" alt="BLoC" />
-      <img src="https://img.shields.io/badge/Fastlane-00F200?style=flat-square&logo=fastlane&logoColor=black" alt="Fastlane" />
-      <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="App Store" />
-      <img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white" alt="Google Play" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>💻 Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=dart,swift,kotlin,ts,js,py,bash,html,css&perline=10" alt="Languages" /></td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>🌐 Web &amp; Backend</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,react,nextjs,tailwind,graphql&perline=10" alt="Web and backend" /><br/>
-      <img src="https://img.shields.io/badge/REST-0B0C0F?style=flat-square&labelColor=0B0C0F&color=B7FF45" alt="REST" />
-      <img src="https://img.shields.io/badge/WebSockets-0B0C0F?style=flat-square&labelColor=0B0C0F&color=B7FF45" alt="WebSockets" />
-      <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white" alt="gRPC" />
-      <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
-      <img src="https://img.shields.io/badge/VS_Code_Extensions-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code Extensions" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>🧠 AI / LLM</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-      <img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" />
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-      <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" alt="Groq" />
-      <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/MCP-B7FF45?style=flat-square&labelColor=0B0C0F&color=B7FF45" alt="Model Context Protocol" />
-      <img src="https://img.shields.io/badge/RAG-0B0C0F?style=flat-square&color=B7FF45" alt="RAG" />
-      <img src="https://img.shields.io/badge/Tool_Calling-0B0C0F?style=flat-square&color=B7FF45" alt="Tool calling" />
-      <img src="https://img.shields.io/badge/Prompt_Evals-0B0C0F?style=flat-square&color=B7FF45" alt="Prompt evals" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>📊 ML</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&perline=10" alt="ML" />
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-    </td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>🗄️ Data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,sqlite,supabase,firebase&perline=10" alt="Data" /></td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>☁️ Cloud &amp; DevOps</b></td>
-    <td><img src="https://skillicons.dev/icons?i=gcp,aws,docker,kubernetes,githubactions,cloudflare,vercel,terraform,linux&perline=10" alt="Cloud and DevOps" /></td>
-  </tr>
-  <tr>
-    <td valign="middle"><b>🧰 Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,figma,vscode,postman,idea&perline=10" alt="Tools" /></td>
-  </tr>
-</table>
-
-<details>
-<summary><b>Engineering practices</b></summary>
-<br/>
-
-`Clean Architecture` · `Design Systems` · `Adaptive / Responsive UI` · `Accessibility` · `Static Analysis & Custom Lints` · `CI/CD` · `Prompt Regression Testing` · `Agentic Workflows` · `Offline-first` · `i18n / RTL` · `Release Engineering` · `Performance Profiling`
-
-</details>
-
-<br/>
-
-<!-- ═══════════════════════════ PUBLISHED APPS ═══════════════════════════ -->
-## ◼ Published Apps
+<img width="100%" src="assets/section-apps.svg" alt="Published Apps" />
 
 Shipped to production on both stores.
 
@@ -274,8 +168,7 @@ Shipped to production on both stores.
 
 <br/>
 
-<!-- ═══════════════════════════ WRITING & MARKETPLACES ═══════════════════════════ -->
-## ◼ Writing & Marketplaces
+<img width="100%" src="assets/section-writing.svg" alt="Writing and Marketplaces" />
 
 <table>
   <tr>
@@ -299,19 +192,23 @@ Shipped to production on both stores.
 
 <br/>
 
-<!-- ═══════════════════════════ GAME ═══════════════════════════ -->
-## ◼ Side Project: Commit Ramp Rider
+<img width="100%" src="assets/section-stack.svg" alt="Tech Stack" />
+
+<img width="100%" src="assets/stack.svg" alt="Technology stack: mobile, languages, web and backend, AI and LLM, ML, data, cloud and DevOps, practices and tools" />
+
+<br/>
+
+<img width="100%" src="assets/section-game.svg" alt="Side Project" />
 
 <a href="https://awaisdev01.github.io/commit-ramp-rider/">
   <img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track" />
 </a>
 
-My commit history as a dirt-bike track: every commit day is a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics and sound, zero game engine. **[Play it live →](https://awaisdev01.github.io/commit-ramp-rider/)**
+**Commit Ramp Rider**: my commit history as a dirt-bike track. Every commit day is a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics and sound, zero game engine. **[Play it live →](https://awaisdev01.github.io/commit-ramp-rider/)**
 
 <br/>
 
-<!-- ═══════════════════════════ ACTIVITY ═══════════════════════════ -->
-## ◼ GitHub Activity
+<img width="100%" src="assets/section-activity.svg" alt="GitHub Activity" />
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Awaisdev01&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub stats" />
@@ -326,33 +223,30 @@ My commit history as a dirt-bike track: every commit day is a hill, the bigger t
 <p align="center">
   <img width="100%" src="https://cdn.jsdelivr.net/gh/Awaisdev01/commit-ramp-rider@output/github-contribution-grid-snake-dark.svg" alt="Contribution graph snake animation" />
 </p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Awaisdev01&theme=onedark&no-frame=true&no-bg=true&margin-w=12&row=1&column=7" alt="GitHub trophies" />
-</p>
 
 <br/>
 
-<!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
-## ◼ Connect
+<img width="100%" src="assets/section-contact.svg" alt="Contact" />
 
-<p>
+<a href="mailto:awaisdev5765@gmail.com">
+  <img width="100%" src="assets/contact.svg" alt="Let's build something great. awaisdev5765@gmail.com" />
+</a>
+
+<p align="center">
+  <a href="mailto:awaisdev5765@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-awaisdev5765@gmail.com-B7FF45?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/@awaiscs"><img alt="Medium" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>
-  <a href="https://awaisdev01.github.io/Awaisdev01/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0B0C0F?style=for-the-badge&logo=googlechrome&logoColor=B7FF45" /></a>
-  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/pub.dev-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a>
 </p>
-<p>
+<p align="center">
   <a href="https://play.google.com/store/apps/developer?id=Airtech_Solutions&hl=en"><img alt="Google Play" src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" /></a>
   <a href="https://apps.apple.com/pk/developer/atg-middle-east-company-w-l-l/id1764554258"><img alt="App Store" src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white" /></a>
   <a href="https://codecanyon.net/author_dashboard"><img alt="CodeCanyon" src="https://img.shields.io/badge/CodeCanyon-82B541?style=for-the-badge&logo=envato&logoColor=white" /></a>
   <a href="https://www.magnific.com/author/awaisdev5765"><img alt="Magnific" src="https://img.shields.io/badge/Magnific-0B0C0F?style=for-the-badge&logoColor=B7FF45" /></a>
-  <a href="https://github.com/Awaisdev01"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://pub.dev/packages?q=prism"><img alt="pub.dev" src="https://img.shields.io/badge/pub.dev-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a>
 </p>
 
-Issues and PRs are welcome on any repo above.
+<img width="100%" src="assets/footer.svg" alt="" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:B7FF45,40:16210C,100:0B0C0F&section=footer" alt="" />
-
-<sub>Formerly <a href="https://github.com/awaisdev5765"><code>awaisdev5765</code></a>. All ongoing work lives here; earlier work is preserved in the repos above and in <a href="https://github.com/Awaisdev01/contributions">merged upstream commits</a>.</sub>
+<p align="center"><sub>Formerly <a href="https://github.com/awaisdev5765"><code>awaisdev5765</code></a>. All ongoing work lives here; earlier work is preserved in the repos above and in <a href="https://github.com/Awaisdev01/contributions">merged upstream commits</a>.</sub></p>
 
 <!-- Old account: awaisdev5765 (suspended Nov 2026). This account carries all ongoing work. -->

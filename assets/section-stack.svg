@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 64" width="1240" height="64" role="img" aria-label="Tech Stack">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#B7FF45"/><stop offset=".35" stop-color="#B7FF45" stop-opacity=".25"/><stop offset="1" stop-color="#B7FF45" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .n{font:600 15px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#B7FF45}
+  .t{font:800 24px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#fff;letter-spacing:3px}
+  @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+  .b{transform-box:fill-box;transform-origin:center;animation:grow .6s ease-out both}
+</style>
+<rect class="b" x="0" y="14" width="6" height="30" rx="3" fill="#B7FF45"/>
+<text class="n" x="24" y="36">09</text>
+<text class="t" x="64" y="37">TECH STACK</text>
+<rect x="0" y="56" width="1240" height="2" fill="url(#l)"/>
+</svg>

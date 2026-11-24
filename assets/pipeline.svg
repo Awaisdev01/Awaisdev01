@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 250" width="1240" height="250" role="img" aria-label="Pipeline: Design, Code, Claims, AI features, Ship">
+<style>
+  .num{font:700 14px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#B7FF45}
+  .ti{font:700 15px 'Segoe UI','SF Pro Display','Helvetica Neue',Arial,sans-serif;fill:#B7FF45;letter-spacing:1.6px}
+  .m{font:500 14px 'SF Mono','JetBrains Mono',Consolas,'Liberation Mono',monospace;fill:#E8EAED}
+  @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1}}
+  .nd{animation:up .7s ease-out both}
+  @keyframes dash{to{stroke-dashoffset:-20}}
+  .fl2{animation:dash 1s linear infinite}
+</style>
+<g class="nd" style="animation-delay:0.00s">
+  <rect x="35" y="30" width="190" height="190" rx="16" fill="#111318" stroke="#242932"/>
+  <rect x="49" y="30" width="162" height="3" rx="1.5" fill="#B7FF45"/>
+  <circle cx="67" cy="66" r="14" fill="none" stroke="#B7FF45" stroke-width="1.6"/>
+  <text x="67" y="71" text-anchor="middle" class="num">1</text>
+  <text x="91" y="72" class="ti">DESIGN</text>
+  <line x1="57" y1="96" x2="203" y2="96" stroke="#242932"/>
+  <text x="57" y="130" class="m">nativetap</text><text x="57" y="156" class="m">prism_sketch</text>
+</g><line class="fl2" x1="233" y1="125" x2="264" y2="125" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M262 119L272 125L262 131z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.15s">
+  <rect x="280" y="30" width="190" height="190" rx="16" fill="#111318" stroke="#242932"/>
+  <rect x="294" y="30" width="162" height="3" rx="1.5" fill="#B7FF45"/>
+  <circle cx="312" cy="66" r="14" fill="none" stroke="#B7FF45" stroke-width="1.6"/>
+  <text x="312" y="71" text-anchor="middle" class="num">2</text>
+  <text x="336" y="72" class="ti">CODE</text>
+  <line x1="302" y1="96" x2="448" y2="96" stroke="#242932"/>
+  <text x="302" y="130" class="m">prism_lints</text><text x="302" y="156" class="m">prism_doctor</text><text x="302" y="182" class="m">prism_guardrails</text>
+</g><line class="fl2" x1="478" y1="125" x2="509" y2="125" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M507 119L517 125L507 131z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.30s">
+  <rect x="525" y="30" width="190" height="190" rx="16" fill="#111318" stroke="#242932"/>
+  <rect x="539" y="30" width="162" height="3" rx="1.5" fill="#B7FF45"/>
+  <circle cx="557" cy="66" r="14" fill="none" stroke="#B7FF45" stroke-width="1.6"/>
+  <text x="557" y="71" text-anchor="middle" class="num">3</text>
+  <text x="581" y="72" class="ti">CLAIMS</text>
+  <line x1="547" y1="96" x2="693" y2="96" stroke="#242932"/>
+  <text x="547" y="130" class="m">factcheck</text><text x="547" y="156" class="m">diffconscience</text>
+</g><line class="fl2" x1="723" y1="125" x2="754" y2="125" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M752 119L762 125L752 131z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.45s">
+  <rect x="770" y="30" width="190" height="190" rx="16" fill="#111318" stroke="#242932"/>
+  <rect x="784" y="30" width="162" height="3" rx="1.5" fill="#B7FF45"/>
+  <circle cx="802" cy="66" r="14" fill="none" stroke="#B7FF45" stroke-width="1.6"/>
+  <text x="802" y="71" text-anchor="middle" class="num">4</text>
+  <text x="826" y="72" class="ti">AI FEATURES</text>
+  <line x1="792" y1="96" x2="938" y2="96" stroke="#242932"/>
+  <text x="792" y="130" class="m">promptguard</text><text x="792" y="156" class="m">forgecode</text><text x="792" y="182" class="m">prism_ai</text>
+</g><line class="fl2" x1="968" y1="125" x2="999" y2="125" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M997 119L1007 125L997 131z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.60s">
+  <rect x="1015" y="30" width="190" height="190" rx="16" fill="#111318" stroke="#242932"/>
+  <rect x="1029" y="30" width="162" height="3" rx="1.5" fill="#B7FF45"/>
+  <circle cx="1047" cy="66" r="14" fill="none" stroke="#B7FF45" stroke-width="1.6"/>
+  <text x="1047" y="71" text-anchor="middle" class="num">5</text>
+  <text x="1071" y="72" class="ti">SHIP</text>
+  <line x1="1037" y1="96" x2="1183" y2="96" stroke="#242932"/>
+  <text x="1037" y="130" class="m">shipcheck</text>
+</g>
+</svg>
