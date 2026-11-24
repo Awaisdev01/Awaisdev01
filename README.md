@@ -202,16 +202,6 @@ Shipped to production on both stores.
 
 <br/>
 
-<img width="100%" src="assets/section-game.svg" alt="Side Project" />
-
-<a href="https://awaisdev01.github.io/commit-ramp-rider/">
-  <img src="game.png" width="100%" alt="Commit Ramp Rider — riding my commit history as a dirt bike track" />
-</a>
-
-**Commit Ramp Rider**: my commit history as a dirt-bike track. Every commit day is a hill, the bigger the day the bigger the ramp. Plain JavaScript, custom physics and sound, zero game engine. **[Play it live →](https://awaisdev01.github.io/commit-ramp-rider/)**
-
-<br/>
-
 <img width="100%" src="assets/section-activity.svg" alt="GitHub Activity" />
 
 <p align="center">
