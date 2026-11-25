@@ -93,6 +93,12 @@ Merged into the tools the Flutter ecosystem runs on. Every link is a PR or commi
   </tr>
 </table>
 
+How **[smsaria](https://github.com/Awaisdev01/smsaria)** works: a phone number becomes an AI service, so people on basic feature phones can use it over SMS or USSD.
+
+<a href="https://github.com/Awaisdev01/smsaria">
+  <img width="100%" src="assets/smsaria-flow.svg" alt="How smsaria works: any phone, over SMS or USSD, reaches smsaria, which returns an AI response to the phone" />
+</a>
+
 <br/>
 
 <img width="100%" src="assets/section-prism.svg" alt="Prism Ecosystem" />
@@ -166,6 +172,7 @@ AI summaries sound confident even when they are wrong. This small game is built 
 </a>
 
 <p align="center">
+  <a href="mailto:awaisdev5765@gmail.com?subject=Project%20inquiry"><img alt="Work with me" src="https://img.shields.io/badge/Work_with_me-B7FF45?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <a href="mailto:awaisdev5765@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-B7FF45?style=for-the-badge&logo=gmail&logoColor=0B0C0F&labelColor=0B0C0F" /></a>
   <a href="https://www.linkedin.com/in/awais-rehman-6b898022a/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/@awaiscs"><img alt="Medium" src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" /></a>

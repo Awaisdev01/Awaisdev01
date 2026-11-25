@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 200" width="1240" height="200" role="img" aria-label="How smsaria works: any phone, over SMS or USSD, reaches smsaria, which returns an AI response to the phone">
+<style>.t{font:700 20px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#E8EAED}.s{font:400 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#9AA3B2}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1}}.nd{animation:up .6s ease-out both}
+@keyframes dash{to{stroke-dashoffset:-20}}.fl{animation:dash 1s linear infinite}</style>
+<g class="nd" style="animation-delay:0.00s"><rect x="35" y="28" width="240" height="112" rx="14" fill="#111318" stroke="#242932"/>
+<rect x="49" y="28" width="212" height="3" rx="1.5" fill="#B7FF45"/>
+<text x="57" y="72" class="t">Any phone</text><text x="57" y="100" class="s">Basic feature phones included</text></g><line class="fl" x1="283" y1="84" x2="325" y2="84" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M323 78L333 84L323 90z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.15s"><rect x="345" y="28" width="240" height="112" rx="14" fill="#111318" stroke="#242932"/>
+<rect x="359" y="28" width="212" height="3" rx="1.5" fill="#B7FF45"/>
+<text x="367" y="72" class="t">SMS or USSD</text><text x="367" y="100" class="s">The channel people already use</text></g><line class="fl" x1="593" y1="84" x2="635" y2="84" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M633 78L643 84L633 90z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.30s"><rect x="655" y="28" width="240" height="112" rx="14" fill="#111318" stroke="#242932"/>
+<rect x="669" y="28" width="212" height="3" rx="1.5" fill="#B7FF45"/>
+<text x="677" y="72" class="t">smsaria</text><text x="677" y="100" class="s">A phone number becomes an AI service</text></g><line class="fl" x1="903" y1="84" x2="945" y2="84" stroke="#B7FF45" stroke-width="2" stroke-dasharray="5 5"/><path d="M943 78L953 84L943 90z" fill="#B7FF45"/><g class="nd" style="animation-delay:0.45s"><rect x="965" y="28" width="240" height="112" rx="14" fill="#111318" stroke="#242932"/>
+<rect x="979" y="28" width="212" height="3" rx="1.5" fill="#B7FF45"/>
+<text x="987" y="72" class="t">AI response</text><text x="987" y="100" class="s">Sent back to the phone</text></g><path class="fl" d="M1035 148V176H155V148" fill="none" stroke="#B7FF45" stroke-opacity=".6" stroke-width="2" stroke-dasharray="5 5"/><path d="M149 156L155 146L161 156z" fill="#B7FF45" fill-opacity=".8"/><text x="595" y="170" text-anchor="middle" class="s" style="fill:#B7FF45;fill-opacity:.85">the answer comes back to the same phone</text></svg>
