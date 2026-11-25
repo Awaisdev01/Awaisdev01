@@ -67,6 +67,14 @@ dl{margin:0;padding:8px 0;font:14px/1.5 var(--mono)}
 .rows li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
 .rows span:last-child{color:var(--mute);font-variant-numeric:tabular-nums}
 .btns{display:flex;gap:12px;flex-wrap:wrap}
+.evid{margin-top:20px;display:grid;gap:10px}.evid h2{margin:0}
+.ev{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:center;font:15px var(--serif);color:var(--mute)}
+@media(max-width:700px){.ev{grid-template-columns:1fr}}
+select{background:#0F1217;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:14px var(--sans);min-height:44px;width:100%}
+.types{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:8px;font-size:15px}
+.types li{display:grid;grid-template-columns:150px 1fr auto;gap:14px;align-items:center}
+.meter{height:6px;background:var(--line);border-radius:3px;overflow:hidden}.meter i{display:block;height:100%;background:var(--acc)}
+.types span:last-child{color:var(--mute);font-variant-numeric:tabular-nums}
 footer{margin-top:48px;font-size:14px;color:var(--mute)}
 footer a{color:var(--ink)}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -89,16 +97,20 @@ footer a{color:var(--ink)}
 <script>
 const ROUNDS=[
 {title:"Release notes: Orbit Notes 2.4",facts:[["version","2.4.0"],["released","2026-03-12"],["requires","iOS 16+, Android 9+"],["new","offline mode, dark theme"],["fixed","sync crash on iPad"],["removed","legacy export"],["app_size","38 MB"]],
- s:[["Orbit Notes 2.4.0 shipped on March 12, 2026."],["It requires iOS 16 or later and Android 9 or later."],["The headline feature is real-time collaboration between users.",{key:"new",why:"The facts list offline mode and a dark theme as new. Collaboration is not mentioned."}],["Offline mode and a dark theme are new in this release."],["The update fixes a sync crash on iPad and trims the app to 24 MB.",{key:"app_size",why:"The app size is 38 MB, not 24 MB."}],["The legacy export option has been removed."]]},
+ s:[["Orbit Notes 2.4.0 shipped on March 12, 2026."],["It requires iOS 16 or later and Android 9 or later."],["The headline feature is real-time collaboration between users.",{key:"new",type:"invented",why:"The facts list offline mode and a dark theme as new. Collaboration is not mentioned."}],["Offline mode and a dark theme are new in this release."],["The update fixes a sync crash on iPad and trims the app to 24 MB.",{key:"app_size",type:"number",why:"The app size is 38 MB, not 24 MB."}],["The legacy export option has been removed."]]},
 {title:"Incident review: login outage",facts:[["date","2026-05-02"],["duration","47 min"],["cause","expired TLS certificate, auth service"],["impact","login failures, 8% of requests"],["detected_by","monitoring alert, 14:06 UTC"],["resolution","certificate rotated, renewal alert added"],["data_loss","none"]],
- s:[["A login outage on May 2, 2026 lasted 47 minutes."],["The root cause was a database migration that locked the users table.",{key:"cause",why:"The cause was an expired TLS certificate on the auth service."}],["About 8% of requests failed during the incident."],["No customer data was lost."],["Engineers found out when users flooded support, and had it fixed within 20 minutes.",{key:"detected_by",why:"A monitoring alert caught it, and the outage lasted 47 minutes, not 20."}],["The team rotated the certificate and added a renewal alert."]]},
+ s:[["A login outage on May 2, 2026 lasted 47 minutes."],["The root cause was a database migration that locked the users table.",{key:"cause",type:"cause",why:"The cause was an expired TLS certificate on the auth service."}],["About 8% of requests failed during the incident."],["No customer data was lost."],["Engineers found out when users flooded support, and had it fixed within 20 minutes.",{key:"detected_by",type:"cause",why:"A monitoring alert caught it, and the outage lasted 47 minutes, not 20."}],["The team rotated the certificate and added a renewal alert."]]},
 {title:"Benchmark summary: startup time",facts:[["device","Pixel 8"],["runs","30"],["cold_start_before","520 ms"],["cold_start_after","410 ms"],["improvement","21%"],["frame_drops","0.4%"],["memory","unchanged"]],
- s:[["Startup was measured on a Pixel 8 across 30 runs."],["Cold start fell from 520 ms to 410 ms."],["That is a 40% improvement.",{key:"improvement",why:"520 to 410 ms is a 21% improvement."}],["Frame drops stayed at 0.4%."],["Memory use also dropped noticeably.",{key:"memory",why:"Memory is listed as unchanged."}],["The results prove the app starts faster on every Android phone.",{key:"device",why:"Only one device was tested. The data cannot support a claim about every phone."}]]},
+ s:[["Startup was measured on a Pixel 8 across 30 runs."],["Cold start fell from 520 ms to 410 ms."],["That is a 40% improvement.",{key:"improvement",type:"number",why:"520 to 410 ms is a 21% improvement."}],["Frame drops stayed at 0.4%."],["Memory use also dropped noticeably.",{key:"memory",type:"invented",why:"Memory is listed as unchanged."}],["The results prove the app starts faster on every Android phone.",{key:"device",type:"overreach",why:"Only one device was tested. The data cannot support a claim about every phone."}]]},
 {title:"Store listing: Orbit Notes",facts:[["price","Free"],["pro_plan","$4.99 / month"],["rating","4.6 from 1,200 ratings"],["age_rating","4+"],["privacy","data not sold, analytics opt-in"],["support","email only"],["offline","yes"]],
- s:[["Orbit Notes is free, with an optional Pro plan at $4.99 a month."],["It holds a 4.6 rating from 1,200 ratings."],["The App Store rates it 12+.",{key:"age_rating",why:"The age rating is 4+."}],["User data is never sold, and analytics are opt-in."],["Support is available through live chat around the clock.",{key:"support",why:"Support is email only."}],["It works offline."],["Pro can also be billed yearly at $59.99.",{key:"pro_plan",why:"Only a monthly price is listed. A yearly price is invented."}]]}
+ s:[["Orbit Notes is free, with an optional Pro plan at $4.99 a month."],["It holds a 4.6 rating from 1,200 ratings."],["The App Store rates it 12+.",{key:"age_rating",type:"number",why:"The age rating is 4+."}],["User data is never sold, and analytics are opt-in."],["Support is available through live chat around the clock.",{key:"support",type:"invented",why:"Support is email only."}],["It works offline."],["Pro can also be billed yearly at $59.99.",{key:"pro_plan",type:"overreach",why:"Only a monthly price is listed. A yearly price is invented."}]]}
 ];
 const $=id=>document.getElementById(id),app=$("app");
 let S;
+const cur=()=>ROUNDS[S.order[S.i]];
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const newGame=()=>{S={i:0,score:0,res:[],types:{},order:shuffle(ROUNDS.map((_,i)=>i))}};
+const TL={number:"Wrong number",invented:"Invented detail",cause:"Wrong cause",overreach:"Overreach"};
 const best=()=>{try{return +localStorage.getItem("hh-best")||0}catch(e){return 0}};
 const save=v=>{try{localStorage.setItem("hh-best",v)}catch(e){}};
 const esc=t=>t.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -109,42 +121,50 @@ function intro(){
  <p class="lead">AI summaries sound sure of themselves, even when they are wrong. Read each one against its facts file and catch the parts that don't hold up.</p>
  <ol class="steps"><li><b>Read</b> the summary on the left and compare it with the facts file.</li>
  <li><b>Click</b> every sentence you think the facts do not support.</li>
+ <li><b>Name the fact</b> that contradicts each flag for a 5 point bonus.</li>
  <li><b>Check your flags</b> before the 60 seconds run out. A correct flag scores 10, a wrong flag costs 5, and spare time adds a bonus.</li></ol>
  <div class="btns"><button class="btn" id="go">Start round 1</button></div>
  ${b?`<p class="small" style="margin-top:18px">Your best score: ${b}</p>`:""}</section>`;
- $("go").onclick=()=>{S={i:0,score:0,res:[]};round()};
+ $("go").onclick=()=>{newGame();round()};
 }
 function round(){
- const R=ROUNDS[S.i];S.flag=new Set();S.t=60;S.done=false;chrome(true);
+ const R=cur();S.flag=new Set();S.ev={};S.t=60;S.done=false;chrome(true);
  $("sr").textContent=S.i+1;$("sn").textContent=ROUNDS.length;$("ss").textContent=S.score;
  app.innerHTML=`<div class="board"><article class="doc"><div class="title">AI-written summary: ${esc(R.title)}</div>
  <p class="text" id="txt">${R.s.map((s,i)=>`<button class="s" data-i="${i}" aria-pressed="false">${esc(s[0])}</button>`).join(" ")}</p></article>
  <aside class="facts" aria-label="Facts file"><div class="bar2"><span>facts.txt</span><span>source of truth</span></div>
  <dl>${R.facts.map(f=>`<div class="f" data-k="${f[0]}"><dt>${f[0]}</dt><dd>${esc(f[1])}</dd></div>`).join("")}</dl></aside></div>
- <div class="act"><p class="small" id="hint">Click a sentence to flag it. Click again to remove the flag.</p><button class="btn" id="chk">Check my flags</button></div>
+ <section class="evid" id="fl" hidden></section><div class="act"><p class="small" id="hint">Click a sentence to flag it. Click again to remove the flag.</p><button class="btn" id="chk">Check my flags</button></div>
  <div id="out" aria-live="polite"></div>`;
  $("txt").onclick=e=>{const b=e.target.closest(".s");if(!b||S.done)return;const i=+b.dataset.i,on=!S.flag.has(i);
   on?S.flag.add(i):S.flag.delete(i);b.setAttribute("aria-pressed",on);
-  $("hint").textContent=S.flag.size?`${S.flag.size} flagged`:"Click a sentence to flag it. Click again to remove the flag."};
+  flags();$("hint").textContent=S.flag.size?`${S.flag.size} flagged`:"Click a sentence to flag it. Click again to remove the flag."};
+ $("fl").onchange=e=>{const s=e.target.closest("select");if(s)S.ev[s.dataset.i]=s.value};
  $("chk").onclick=()=>finish(false);
  tick();clearInterval(S.timer);S.timer=setInterval(()=>{S.t--;tick();if(S.t<=0)finish(true)},1000);
 }
 function tick(){$("st").textContent=S.t;$("fill").style.width=(S.t/60*100)+"%";$("bar").classList.toggle("low",S.t<=15)}
+function flags(){const el=$("fl"),R=cur();
+ if(!S.flag.size){el.hidden=true;el.innerHTML="";return}
+ el.hidden=false;
+ el.innerHTML="<h2>Your flags</h2>"+[...S.flag].sort((a,b)=>a-b).map(i=>`<label class="ev"><span>"${esc(R.s[i][0].split(" ").slice(0,7).join(" "))}..."</span><select data-i="${i}"><option value="">Which fact contradicts it? (optional, +5)</option>${R.facts.map(f=>`<option value="${f[0]}"${S.ev[i]===f[0]?" selected":""}>${f[0]}</option>`).join("")}</select></label>`).join("")}
 function finish(timeUp){
  if(S.done)return;S.done=true;clearInterval(S.timer);
- const R=ROUNDS[S.i];let ok=0,fa=0,ms=0;const notes=[];
- R.s.forEach((s,i)=>{const bad=!!s[1],fl=S.flag.has(i),b=document.querySelector(`.s[data-i="${i}"]`);b.disabled=true;
-  const q=esc(s[0].split(" ").slice(0,6).join(" "))+"...";
-  if(bad&&fl){ok++;b.classList.add("ok");notes.push(`<li class="ok"><b>Caught:</b> "${q}" ${esc(s[1].why)}</li>`)}
-  else if(bad){ms++;b.classList.add("ms");notes.push(`<li class="ms"><b>Missed:</b> "${q}" ${esc(s[1].why)}</li>`)}
-  else if(fl){fa++;b.classList.add("fa");notes.push(`<li class="fa"><b>Supported by the facts:</b> "${q}" Flagging it cost you points.</li>`)}});
- const bonus=S.flag.size?Math.floor(S.t/6):0,pts=Math.max(0,ok*10-fa*5+bonus);
+ const R=cur();let ok=0,fa=0,ms=0,ev=0;const notes=[];
+ R.s.forEach((s,i)=>{const bad=!!s[1],fl=S.flag.has(i),b=document.querySelector(`.s[data-i="${i}"]`),q=esc(s[0].split(" ").slice(0,6).join(" "))+"...";
+  b.disabled=true;
+  if(bad){const t=s[1].type,T=S.types[t]||(S.types[t]={c:0,t:0});T.t++;
+   if(fl){ok++;T.c++;b.classList.add("ok");const hit=S.ev[i]===s[1].key;if(hit)ev++;
+    notes.push(`<li class="ok"><b>Caught: ${TL[t].toLowerCase()}.</b> "${q}" ${esc(s[1].why)} ${hit?"Evidence bonus: 5 points.":S.ev[i]?"The fact that contradicts it is "+s[1].key+".":""}</li>`)}
+   else{ms++;b.classList.add("ms");notes.push(`<li class="ms"><b>Missed: ${TL[t].toLowerCase()}.</b> "${q}" ${esc(s[1].why)}</li>`)}}
+  else if(fl){fa++;b.classList.add("fa");notes.push(`<li class="fa"><b>This one was supported.</b> "${q}" Flagging it cost you 5 points.</li>`)}});
+ const bonus=S.flag.size?Math.floor(S.t/6):0,pts=Math.max(0,ok*10+ev*5-fa*5+bonus);
  S.score+=pts;S.res.push({t:R.title,ok,tot:ok+ms,fa,pts});$("ss").textContent=S.score;
  R.s.forEach(s=>{if(s[1])document.querySelector(`.f[data-k="${s[1].key}"]`).classList.add("hl")});
  const last=S.i===ROUNDS.length-1;
- $("chk").remove();$("hint").remove();
+ $("chk").remove();$("hint").remove();$("fl").remove();
  $("out").innerHTML=`<div class="result"><strong>${timeUp?"Time is up. ":""}You caught ${ok} of ${ok+ms} bad claims for ${pts} points.</strong>
- <p class="small" style="margin-top:4px">${fa?`${fa} false alarm${fa>1?"s":""}. `:""}${bonus?`Time bonus: ${bonus}.`:""}</p></div>
+ <p class="small" style="margin-top:4px">${ev?`Evidence bonus: ${ev*5}. `:""}${fa?`${fa} false alarm${fa>1?"s":""}. `:""}${bonus?`Time bonus: ${bonus}.`:""}</p></div>
  <ul class="notes">${notes.join("")}</ul>
  <div class="act"><span></span><button class="btn" id="nx">${last?"See final score":"Start round "+(S.i+2)}</button></div>`;
  $("nx").focus();$("nx").onclick=()=>{if(last)end();else{S.i++;round()}};
@@ -152,14 +172,23 @@ function finish(timeUp){
 }
 function end(){
  chrome(false);const prev=best(),isBest=S.score>prev;if(isBest)save(S.score);
- const r=S.score>=110?"Staff reviewer":S.score>=80?"Senior reviewer":S.score>=50?"Reviewer":"Trainee";
+ const r=S.score>=150?"Staff reviewer":S.score>=110?"Senior reviewer":S.score>=70?"Reviewer":"Trainee";
  const msg={"Staff reviewer":"Very little gets past you.","Senior reviewer":"You catch most of what slips through.","Reviewer":"Solid, but a few claims got through.","Trainee":"Hallucinations are good at hiding. Try again."}[r];
+ const ty=Object.keys(TL).map(k=>({k,c:0,t:0,...S.types[k]})).filter(x=>x.t);
+ const weak=ty.filter(x=>x.c<x.t).sort((a,b)=>a.c/a.t-b.c/b.t)[0];
+ const blind=weak?`Your blind spot: ${TL[weak.k].toLowerCase()} (${weak.c} of ${weak.t} caught).`:"No blind spots. You caught every type of claim.";
+ const share=`Hallucination Hunter: ${S.score} points, ${r}. ${blind} https://awaisdev01.github.io/Awaisdev01/hunter/`;
  app.innerHTML=`<section class="end"><h2>Final score</h2><div class="score">${S.score}</div><h1 style="font-size:clamp(26px,4vw,36px);margin-bottom:8px">${r}</h1>
- <p class="lead small" style="font-size:16px">${msg}${isBest&&prev?" That is a new personal best.":""}</p>
+ <p class="small" style="font-size:16px">${msg}${isBest&&prev?" That is a new personal best.":""}</p>
  <ul class="rows">${S.res.map((x,i)=>`<li><span>Round ${i+1}: ${esc(x.t.split(": ")[1])}</span><span>${x.ok}/${x.tot} caught${x.fa?`, ${x.fa} false alarm${x.fa>1?"s":""}`:""}, ${x.pts} pts</span></li>`).join("")}</ul>
- <div class="btns"><button class="btn" id="again">Play again</button><a class="btn quiet" style="text-decoration:none;display:inline-flex;align-items:center" href="https://github.com/Awaisdev01/factcheck">See how factcheck works</a></div></section>`;
- $("again").onclick=()=>{S={i:0,score:0,res:[]};round()};$("again").focus();
+ <h2>What you caught, by type of claim</h2>
+ <ul class="types">${ty.map(x=>`<li><span>${TL[x.k]}</span><span class="meter"><i style="width:${x.c/x.t*100}%"></i></span><span>${x.c}/${x.t}</span></li>`).join("")}</ul>
+ <p style="margin-bottom:24px">${blind}</p>
+ <div class="btns"><button class="btn" id="again">Play again</button><button class="btn quiet" id="cp">Copy result</button><a class="btn quiet" style="text-decoration:none;display:inline-flex;align-items:center" href="https://github.com/Awaisdev01/factcheck">See how factcheck works</a></div></section>`;
+ $("again").onclick=()=>{newGame();round()};$("again").focus();
+ $("cp").onclick=async()=>{try{await navigator.clipboard.writeText(share);$("cp").textContent="Copied"}catch(e){window.prompt("Copy your result:",share)}};
 }
+
 intro();
 </script>
 </body>
